@@ -1,0 +1,8 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+Interactive.py,SConsInteractiveCmd,sak,1.0,"large_class, cohesion, interfaces","__init__, onecmd, do_clean, do_EOF, do_help, do_shell, do_version"
+Main.py,SConsPrintHelpException,potential,0.5,"cohesion, interfaces",
+Main.py,BuildTask,potential,0.7,"large_class, interfaces","prepare, failed"
+SConscript.py,SConscriptReturn,potential,0.5,"cohesion, interfaces",
+SConscript.py,Frame,potential,0.5,cohesion,__init__
+SConscript.py,SConsEnvironment,potential,0.7,"large_class, interfaces","Default, Export, Help, Import, SConscript"
+ScriptTests.py,TestScriptFunctions,potential,0.7,"large_class, interfaces","test_Add_Arguments, test_Add_Arguments_empty, test_Add_Targets, test_Add_Targets_empty, test_Remove_Argument, test_Remove_Argument_key_with_multiple_values, test_Remove_Argument_nonexistent, test_Remove_Argument_empty, test_Remove_Target, test_Remove_Target_duplicated, test_Remove_Target_nonexistent, test_Remove_Target_empty"

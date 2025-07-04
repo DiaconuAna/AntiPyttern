@@ -1,0 +1,11 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+base.py,ExtensionDtype,sak,0.8,"large_class, cohesion","type, name, names, _is_immutable, index_class, _can_fast_transpose"
+dtypes.py,CategoricalDtypeType,potential,0.5,"cohesion, interfaces",
+dtypes.py,CategoricalDtype,sak,1.0,"large_class, cohesion, interfaces","_from_fastpath, _from_values_or_dtype, update_dtype, index_class"
+dtypes.py,DatetimeTZDtype,sak,1.0,"large_class, cohesion, interfaces","base, str, _creso, name, index_class"
+dtypes.py,PeriodDtype,potential,0.7,"cohesion, interfaces","name, index_class"
+dtypes.py,IntervalDtype,potential,0.7,"cohesion, interfaces","subtype, type, index_class"
+dtypes.py,NumpyEADtype,potential,0.7,"cohesion, interfaces","name, type"
+dtypes.py,BaseMaskedDtype,potential,0.7,"cohesion, interfaces","_truthy_value, _falsey_value"
+dtypes.py,SparseDtype,sak,1.0,"large_class, cohesion, interfaces","fill_value, type, subtype, name, update_dtype, _subtype_with_str"
+dtypes.py,ArrowDtype,potential,0.7,"cohesion, interfaces","type, name"

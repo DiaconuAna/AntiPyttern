@@ -1,0 +1,63 @@
+File,Classification,Score,Smells
+Action.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+ActionTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+Builder.py,potential,0.4,"switch_stmt, dead_code"
+BuilderTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+CacheDir.py,clean,0.15,dead_code
+CacheDirTests.py,potential,0.44999999999999996,"global_vars, dead_code"
+Conftest.py,potential,0.4,"switch_stmt, dead_code"
+cpp.py,potential,0.44999999999999996,"global_vars, dead_code"
+cppTests.py,clean,0.15,dead_code
+dblite.py,spaghetti,0.85,"long_methods_no_params, global_vars, switch_stmt"
+Debug.py,potential,0.44999999999999996,"global_vars, dead_code"
+Defaults.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+DefaultsTests.py,clean,0.15,dead_code
+Environment.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+EnvironmentTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+EnvironmentValues.py,clean,0.15,dead_code
+EnvironmentValuesTest.py,clean,0.15,dead_code
+Errors.py,potential,0.4,"switch_stmt, dead_code"
+ErrorsTests.py,potential,0.4,"switch_stmt, dead_code"
+Executor.py,potential,0.55,"global_vars, switch_stmt"
+ExecutorTests.py,clean,0.15,dead_code
+exitfuncs.py,clean,0.0,
+Memoize.py,clean,0.3,global_vars
+MemoizeTests.py,potential,0.4,"switch_stmt, dead_code"
+PathList.py,clean,0.0,
+PathListTests.py,clean,0.15,dead_code
+SConf.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+SConfTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+SConsign.py,potential,0.55,"global_vars, switch_stmt"
+SConsignTests.py,potential,0.4,"switch_stmt, dead_code"
+Subst.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+SubstTests.py,potential,0.4,"switch_stmt, dead_code"
+Warnings.py,clean,0.15,dead_code
+WarningsTests.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+__main__.py,clean,0.0,
+BoolVariable.py,clean,0.0,
+BoolVariableTests.py,clean,0.15,dead_code
+EnumVariable.py,clean,0.0,
+EnumVariableTests.py,potential,0.4,"switch_stmt, dead_code"
+ListVariable.py,clean,0.0,
+ListVariableTests.py,potential,0.4,"switch_stmt, dead_code"
+PackageVariable.py,clean,0.0,
+PackageVariableTests.py,potential,0.4,"switch_stmt, dead_code"
+PathVariable.py,clean,0.0,
+PathVariableTests.py,clean,0.15,dead_code
+VariablesTests.py,potential,0.4,"switch_stmt, dead_code"
+__init__.py,potential,0.4,"switch_stmt, dead_code"
+ConfigureCache.py,potential,0.55,"long_methods_no_params, switch_stmt"
+sconsign.py,spaghetti,0.85,"long_methods_no_params, global_vars, switch_stmt"
+__init__.py,clean,0.0,
+envs.py,clean,0.25,switch_stmt
+filelock.py,clean,0.0,
+hashes.py,potential,0.44999999999999996,"global_vars, dead_code"
+sctypes.py,clean,0.0,
+stats.py,spaghetti,0.7000000000000001,"long_methods_no_params, switch_stmt, dead_code"
+UtilTests.py,potential,0.4,"switch_stmt, dead_code"
+__init__.py,potential,0.4,"switch_stmt, dead_code"
+Job.py,potential,0.4,"switch_stmt, dead_code"
+JobTests.py,potential,0.44999999999999996,"global_vars, dead_code"
+TaskmasterTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+__init__.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"

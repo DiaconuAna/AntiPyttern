@@ -1,0 +1,284 @@
+,File,Classification,Score,Smells
+0,Alias.py,clean,0.15,dead_code
+1,AliasTests.py,clean,0.15,dead_code
+2,FS.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+3,FSTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+4,NodeTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+5,Python.py,potential,0.4499999999999999,"global_vars, dead_code"
+6,PythonTests.py,clean,0.15,dead_code
+7,__init__.py,potential,0.4,"switch_stmt, dead_code"
+8,386asm.py,clean,0.0,
+9,aixc++.py,clean,0.0,
+10,aixcc.py,clean,0.0,
+11,aixcxx.py,clean,0.0,
+12,aixf77.py,clean,0.0,
+13,aixlink.py,clean,0.15,dead_code
+14,applelink.py,clean,0.0,
+15,ar.py,clean,0.0,
+16,as.py,clean,0.0,
+17,asm.py,clean,0.0,
+18,bcc32.py,clean,0.0,
+19,c++.py,clean,0.0,
+20,cc.py,clean,0.0,
+21,clang.py,clean,0.0,
+22,clangxx.py,clean,0.0,
+23,compilation_db.py,clean,0.15,dead_code
+24,cvf.py,clean,0.0,
+25,cxx.py,clean,0.0,
+26,cyglink.py,potential,0.4,"switch_stmt, dead_code"
+27,DCommon.py,clean,0.15,dead_code
+28,default.py,clean,0.0,
+29,dmd.py,clean,0.0,
+30,dvi.py,clean,0.3,global_vars
+31,dvipdf.py,clean,0.3,global_vars
+32,dvips.py,clean,0.3,global_vars
+33,f03.py,clean,0.0,
+34,f08.py,clean,0.0,
+35,f77.py,clean,0.0,
+36,f90.py,clean,0.0,
+37,f95.py,clean,0.0,
+38,filesystem.py,clean,0.3,global_vars
+39,fortran.py,clean,0.0,
+40,FortranCommon.py,clean,0.0,
+41,FortranCommonTests.py,clean,0.15,dead_code
+42,g++.py,clean,0.0,
+43,g77.py,clean,0.0,
+44,gas.py,clean,0.0,
+45,gcc.py,clean,0.0,
+46,gdc.py,clean,0.0,
+47,GettextCommon.py,potential,0.4499999999999999,"global_vars, dead_code"
+48,gettext_tool.py,clean,0.0,
+49,gfortran.py,clean,0.0,
+50,gnulink.py,clean,0.0,
+51,gs.py,clean,0.3,global_vars
+52,gxx.py,clean,0.0,
+53,hpc++.py,clean,0.0,
+54,hpcc.py,clean,0.0,
+55,hpcxx.py,clean,0.0,
+56,hplink.py,clean,0.0,
+57,icc.py,clean,0.0,
+58,icl.py,clean,0.0,
+59,ifl.py,clean,0.0,
+60,ifort.py,clean,0.0,
+61,ilink.py,clean,0.0,
+62,ilink32.py,clean,0.0,
+63,install.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+64,intelc.py,potential,0.55,"long_methods_no_params, switch_stmt"
+65,ipkg.py,clean,0.0,
+66,jar.py,potential,0.4,"switch_stmt, dead_code"
+67,javac.py,potential,0.4,"switch_stmt, dead_code"
+68,JavaCommon.py,clean,0.25,switch_stmt
+69,JavaCommonTests.py,potential,0.4,"switch_stmt, dead_code"
+70,javacTests.py,clean,0.15,dead_code
+71,javah.py,clean,0.25,switch_stmt
+72,latex.py,clean,0.0,
+73,ldc.py,clean,0.0,
+74,lex.py,clean,0.0,
+75,link.py,clean,0.0,
+76,linkloc.py,clean,0.0,
+77,m4.py,clean,0.0,
+78,masm.py,clean,0.0,
+79,midl.py,clean,0.0,
+80,mingw.py,clean,0.3,global_vars
+81,msgfmt.py,clean,0.0,
+82,msginit.py,clean,0.0,
+83,msgmerge.py,clean,0.0,
+84,mslib.py,clean,0.0,
+85,mslink.py,clean,0.25,switch_stmt
+86,mssdk.py,clean,0.0,
+87,msvc.py,clean,0.15,dead_code
+88,msvs.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+89,msvsTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+90,mwcc.py,clean,0.0,
+91,mwld.py,clean,0.0,
+92,nasm.py,clean,0.0,
+93,pdf.py,clean,0.3,global_vars
+94,pdflatex.py,clean,0.3,global_vars
+95,pdftex.py,clean,0.3,global_vars
+96,PharLapCommon.py,clean,0.0,
+97,python.py,clean,0.0,
+98,qt.py,clean,0.0,
+99,qt3.py,clean,0.25,switch_stmt
+100,rmic.py,clean,0.25,switch_stmt
+101,rpcgen.py,clean,0.0,
+102,rpm.py,clean,0.0,
+103,rpmutils.py,potential,0.4,"switch_stmt, dead_code"
+104,sgiar.py,clean,0.0,
+105,sgic++.py,clean,0.0,
+106,sgicc.py,clean,0.0,
+107,sgicxx.py,clean,0.0,
+108,sgilink.py,clean,0.0,
+109,sunar.py,clean,0.0,
+110,sunc++.py,clean,0.0,
+111,suncc.py,clean,0.0,
+112,suncxx.py,clean,0.25,switch_stmt
+113,sunf77.py,clean,0.0,
+114,sunf90.py,clean,0.0,
+115,sunf95.py,clean,0.0,
+116,sunlink.py,clean,0.0,
+117,swig.py,potential,0.4,"switch_stmt, dead_code"
+118,tar.py,clean,0.0,
+119,tex.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+120,textfile.py,clean,0.25,switch_stmt
+121,tlib.py,clean,0.0,
+122,ToolTests.py,clean,0.15,dead_code
+123,wix.py,clean,0.25,switch_stmt
+124,wixTests.py,clean,0.15,dead_code
+125,xgettext.py,clean,0.25,switch_stmt
+126,yacc.py,potential,0.4,"switch_stmt, dead_code"
+127,zip.py,clean,0.15,dead_code
+129,ipk.py,potential,0.4,"switch_stmt, dead_code"
+130,msi.py,clean,0.15,dead_code
+131,rpm.py,potential,0.4,"switch_stmt, dead_code"
+132,src_tarbz2.py,clean,0.0,
+133,src_targz.py,clean,0.0,
+134,src_tarxz.py,clean,0.0,
+135,src_zip.py,clean,0.0,
+136,tarbz2.py,clean,0.0,
+137,targz.py,clean,0.0,
+138,tarxz.py,clean,0.0,
+139,zip.py,clean,0.0,
+140,__init__.py,potential,0.55,"global_vars, switch_stmt"
+141,Globals.py,clean,0.15,dead_code
+142,Methods.py,potential,0.4,"switch_stmt, dead_code"
+143,NinjaState.py,clean,0.25,switch_stmt
+144,ninja_daemon_build.py,clean,0.0,
+145,ninja_run_daemon.py,clean,0.15,dead_code
+146,ninja_scons_daemon.py,spaghetti,1.0,"long_methods_no_params, global_vars, switch_stmt, dead_code"
+147,Overrides.py,clean,0.15,dead_code
+148,Rules.py,clean,0.0,
+149,Utils.py,clean,0.15,dead_code
+150,UtilsTests.py,clean,0.15,dead_code
+151,__init__.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+152,arch.py,clean,0.0,
+153,common.py,potential,0.4499999999999999,"global_vars, dead_code"
+154,netframework.py,clean,0.0,
+155,sdk.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+156,vc.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+157,vcTests.py,potential,0.4,"switch_stmt, dead_code"
+158,vs.py,potential,0.4499999999999999,"global_vars, dead_code"
+159,__init__.py,clean,0.0,
+160,Config.py,clean,0.15,dead_code
+161,ConfigTests.py,clean,0.15,dead_code
+162,Dispatcher.py,clean,0.0,
+163,DispatcherTests.py,clean,0.15,dead_code
+164,Exceptions.py,clean,0.0,
+165,Kind.py,potential,0.55,"global_vars, switch_stmt"
+166,Policy.py,potential,0.4499999999999999,"global_vars, dead_code"
+167,PolicyTests.py,clean,0.15,dead_code
+168,Registry.py,clean,0.0,
+169,RegistryTests.py,clean,0.15,dead_code
+170,ScriptArguments.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+171,ScriptArgumentsTests.py,potential,0.4,"switch_stmt, dead_code"
+172,SetupEnvDefault.py,clean,0.25,switch_stmt
+173,Util.py,clean,0.0,
+174,UtilTests.py,clean,0.15,dead_code
+175,Warnings.py,clean,0.0,
+176,WinSDK.py,potential,0.55,"global_vars, switch_stmt"
+177,WinSDKTests.py,clean,0.15,dead_code
+179,linkCommmonTests.py,clean,0.15,dead_code
+180,LoadableModule.py,clean,0.0,
+181,SharedLibrary.py,clean,0.25,switch_stmt
+182,__init__.py,potential,0.4499999999999999,"global_vars, dead_code"
+184,aix.py,potential,0.4,"switch_stmt, dead_code"
+185,cygwin.py,clean,0.15,dead_code
+186,darwin.py,clean,0.0,
+187,hpux.py,clean,0.0,
+188,irix.py,clean,0.0,
+189,mingw.py,clean,0.15,dead_code
+190,os2.py,clean,0.0,
+191,PlatformTests.py,potential,0.4,"switch_stmt, dead_code"
+192,posix.py,clean,0.0,
+193,sunos.py,clean,0.0,
+194,virtualenv.py,clean,0.0,
+195,virtualenvTests.py,clean,0.15,dead_code
+196,win32.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+198,C.py,potential,0.4,"switch_stmt, dead_code"
+199,CTests.py,potential,0.4499999999999999,"global_vars, dead_code"
+200,D.py,clean,0.0,
+201,Dir.py,clean,0.0,
+202,DirTests.py,clean,0.15,dead_code
+203,DTests.py,potential,0.4499999999999999,"global_vars, dead_code"
+204,Fortran.py,clean,0.25,switch_stmt
+205,FortranTests.py,clean,0.15,dead_code
+206,IDL.py,clean,0.0,
+207,IDLTests.py,potential,0.4499999999999999,"global_vars, dead_code"
+208,Java.py,clean,0.15,dead_code
+209,JavaTests.py,potential,0.4499999999999999,"global_vars, dead_code"
+210,LaTeX.py,potential,0.4,"switch_stmt, dead_code"
+211,LaTeXTests.py,potential,0.4499999999999999,"global_vars, dead_code"
+212,Prog.py,clean,0.25,switch_stmt
+213,ProgTests.py,clean,0.15,dead_code
+214,Python.py,clean,0.25,switch_stmt
+215,PythonTests.py,potential,0.4499999999999999,"global_vars, dead_code"
+216,RC.py,clean,0.0,
+217,RCTests.py,potential,0.4499999999999999,"global_vars, dead_code"
+218,ScannerTests.py,clean,0.15,dead_code
+219,SWIG.py,clean,0.15,dead_code
+221,Interactive.py,clean,0.15,dead_code
+222,Main.py,spaghetti,1.0,"long_methods_no_params, global_vars, switch_stmt, dead_code"
+223,MainTests.py,clean,0.0,
+224,SConscript.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+225,SConscriptTests.py,clean,0.0,
+226,SConsOptions.py,potential,0.4,"switch_stmt, dead_code"
+227,ScriptTests.py,clean,0.15,dead_code
+229,Action.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+230,ActionTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+231,Builder.py,potential,0.4,"switch_stmt, dead_code"
+232,BuilderTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+233,CacheDir.py,clean,0.15,dead_code
+234,CacheDirTests.py,potential,0.4499999999999999,"global_vars, dead_code"
+235,Conftest.py,potential,0.4,"switch_stmt, dead_code"
+236,cpp.py,potential,0.4499999999999999,"global_vars, dead_code"
+237,cppTests.py,clean,0.15,dead_code
+238,dblite.py,spaghetti,0.85,"long_methods_no_params, global_vars, switch_stmt"
+239,Debug.py,potential,0.4499999999999999,"global_vars, dead_code"
+240,Defaults.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+241,DefaultsTests.py,clean,0.15,dead_code
+242,Environment.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+243,EnvironmentTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+244,EnvironmentValues.py,clean,0.15,dead_code
+245,EnvironmentValuesTest.py,clean,0.15,dead_code
+246,Errors.py,potential,0.4,"switch_stmt, dead_code"
+247,ErrorsTests.py,potential,0.4,"switch_stmt, dead_code"
+248,Executor.py,potential,0.55,"global_vars, switch_stmt"
+249,ExecutorTests.py,clean,0.15,dead_code
+250,exitfuncs.py,clean,0.0,
+251,Memoize.py,clean,0.3,global_vars
+252,MemoizeTests.py,potential,0.4,"switch_stmt, dead_code"
+253,PathList.py,clean,0.0,
+254,PathListTests.py,clean,0.15,dead_code
+255,SConf.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+256,SConfTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+257,SConsign.py,potential,0.55,"global_vars, switch_stmt"
+258,SConsignTests.py,potential,0.4,"switch_stmt, dead_code"
+259,Subst.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+260,SubstTests.py,potential,0.4,"switch_stmt, dead_code"
+261,Warnings.py,clean,0.15,dead_code
+262,WarningsTests.py,clean,0.15,dead_code
+264,__main__.py,clean,0.0,
+265,BoolVariable.py,clean,0.0,
+266,BoolVariableTests.py,clean,0.15,dead_code
+267,EnumVariable.py,clean,0.0,
+268,EnumVariableTests.py,potential,0.4,"switch_stmt, dead_code"
+269,ListVariable.py,clean,0.0,
+270,ListVariableTests.py,potential,0.4,"switch_stmt, dead_code"
+271,PackageVariable.py,clean,0.0,
+272,PackageVariableTests.py,potential,0.4,"switch_stmt, dead_code"
+273,PathVariable.py,clean,0.0,
+274,PathVariableTests.py,clean,0.15,dead_code
+275,VariablesTests.py,potential,0.4,"switch_stmt, dead_code"
+277,ConfigureCache.py,potential,0.55,"long_methods_no_params, switch_stmt"
+278,sconsign.py,spaghetti,0.85,"long_methods_no_params, global_vars, switch_stmt"
+280,envs.py,clean,0.25,switch_stmt
+281,filelock.py,clean,0.0,
+282,hashes.py,potential,0.4499999999999999,"global_vars, dead_code"
+283,sctypes.py,clean,0.0,
+284,stats.py,spaghetti,0.7000000000000001,"long_methods_no_params, switch_stmt, dead_code"
+285,UtilTests.py,potential,0.4,"switch_stmt, dead_code"
+287,Job.py,potential,0.4,"switch_stmt, dead_code"
+288,JobTests.py,potential,0.4499999999999999,"global_vars, dead_code"
+289,TaskmasterTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+291,win32.py,clean,0.0,
+292,_scons_dbm.py,clean,0.15,dead_code
+293,__init__.py,clean,0.15,dead_code

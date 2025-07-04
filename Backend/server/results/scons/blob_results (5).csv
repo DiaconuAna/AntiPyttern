@@ -1,0 +1,11 @@
+File,Class,Is Blob Controller,Is Data Class,Smells
+CTests.py,DummyEnvironment,True,False,"large_class, low_cohesion"
+DTests.py,DummyEnvironment,True,False,"large_class, low_cohesion"
+DTests.py,DScannerTestCase,True,False,"large_class, low_cohesion"
+JavaTests.py,DummyEnvironment,True,False,"large_class, low_cohesion"
+LaTeX.py,LaTeX,True,False,"large_class, low_cohesion, comment_heavy"
+LaTeXTests.py,DummyEnvironment,True,False,"large_class, low_cohesion"
+PythonTests.py,DummyEnvironment,True,False,"large_class, low_cohesion"
+ScannerTests.py,ScannerBaseTestCase,True,False,"large_class, low_cohesion"
+ScannerTests.py,ClassicTestCase,True,False,"large_class, low_cohesion"
+__init__.py,ScannerBase,True,False,"large_class, low_cohesion, comment_heavy"

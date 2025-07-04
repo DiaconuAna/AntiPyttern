@@ -1,0 +1,7 @@
+gitpython
+radon
+pylint
+ast
+python-dotenv
+lcom
+pyyaml

@@ -1,0 +1,16 @@
+smells:
+  long_methods_no_params:
+    weight: 0.3
+
+  global_vars:
+    weight: 0.3
+
+  switch_stmt:
+    weight: 0.25
+
+  dead_code:
+    weight: 0.15
+
+thresholds:
+  potential_spaghetti_code: 0.4
+  spaghetti_code: 0.6

@@ -1,0 +1,29 @@
+<div *ngIf="resultsResponse; else noResults">
+  <div class="text-lg font-semibold mb-2 text-green-700">
+    {{ resultsResponse.message }}
+  </div>
+  <div class="text-sm text-gray-500 mb-4">
+    Total files: {{ resultsResponse.file_count }}
+  </div>
+
+  <app-blob-results
+    *ngIf="resultsResponse.results?.blob"
+    [blobResults]="resultsResponse.results.blob">
+  </app-blob-results>
+
+  <app-spaghetti-results
+    *ngIf="resultsResponse.results?.spaghetti"
+    [spaghettiResults]="resultsResponse.results.spaghetti">
+  </app-spaghetti-results>
+
+  <app-sak-results
+    *ngIf="resultsResponse.results?.sak"
+    [sakResults]="resultsResponse.results.sak">
+  </app-sak-results>
+</div>
+
+<ng-template #noResults>
+  <div class="text-center text-gray-500 mt-10">
+    Results not available yet. Scan GitHub repo/files first.
+  </div>
+</ng-template>

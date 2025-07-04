@@ -1,0 +1,22 @@
+smells:
+  large_class:
+    weight: 0.30
+    required: true
+
+  low_cohesion:
+    weight: 0.30
+    required: true
+
+  long_method:
+    weight: 0.15
+    required: false
+
+  feature_envy:
+    weight: 0.15
+    required: false
+
+  comment_heavy:
+    weight: 0.1
+    required: false
+
+threshold: 0.6

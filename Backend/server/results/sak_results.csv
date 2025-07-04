@@ -1,0 +1,26 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+app.py,Flask,sak,1.0,"large_class, cohesion, interfaces","open_resource, open_instance_resource, run, test_client, test_cli_runner, app_context"
+blueprints.py,Blueprint,potential,0.7,"cohesion, interfaces",open_resource
+cli.py,NoAppException,potential,0.5,"cohesion, interfaces",
+cli.py,AppGroup,potential,0.5,"cohesion, interfaces",
+cli.py,FlaskGroup,potential,0.5,"cohesion, interfaces",
+config.py,Config,potential,0.7,"cohesion, interfaces","from_envvar, from_prefixed_env, from_file, get_namespace"
+debughelpers.py,UnexpectedUnicodeError,potential,0.5,"cohesion, interfaces",
+debughelpers.py,FormDataRoutingRedirect,potential,0.5,"cohesion, interfaces",
+debughelpers.py,newcls,potential,0.5,"cohesion, interfaces",
+sessions.py,SecureCookieSession,potential,0.7,"cohesion, interfaces",get
+sessions.py,NullSession,potential,0.5,"cohesion, interfaces",
+sessions.py,SessionInterface,potential,0.6,"large_class, cohesion",
+sessions.py,SecureCookieSessionInterface,potential,0.5,"cohesion, interfaces",
+templating.py,Environment,potential,0.5,"cohesion, interfaces",
+views.py,View,potential,0.5,cohesion,as_view
+wrappers.py,Request,potential,0.7,"cohesion, interfaces","blueprint, blueprints"
+wrappers.py,Response,potential,0.5,"cohesion, interfaces",
+app.py,App,sak,1.0,"large_class, cohesion, interfaces","name, debug, debug, register_blueprint, template_filter, template_test, template_global, teardown_appcontext, shell_context_processor"
+blueprints.py,Blueprint,potential,0.7,"large_class, interfaces","register_blueprint, register, app_template_filter, app_template_test, app_template_global, before_app_request, after_app_request, teardown_app_request, app_context_processor, app_errorhandler, app_url_value_preprocessor, app_url_defaults"
+scaffold.py,Scaffold,sak,0.8,"large_class, cohesion","get, post, put, delete, patch, before_request, after_request, teardown_request, context_processor, url_value_preprocessor, url_defaults, errorhandler"
+provider.py,JSONProvider,potential,0.5,cohesion,"dumps, dump"
+tag.py,TagBytes,potential,0.5,"cohesion, interfaces",
+tag.py,TagMarkup,potential,0.5,"cohesion, interfaces",
+tag.py,TagUUID,potential,0.5,"cohesion, interfaces",
+tag.py,TagDateTime,potential,0.5,"cohesion, interfaces",

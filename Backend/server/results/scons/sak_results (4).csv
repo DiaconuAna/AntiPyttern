@@ -1,0 +1,123 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+C.py,SConsCPPScanner,potential,0.7,"cohesion, interfaces","__init__, initialize_result, finalize_result, find_include_file, read_file"
+C.py,SConsCPPScannerWrapper,potential,0.5,cohesion,"__init__, __call__, select"
+C.py,SConsCPPConditionalScanner,potential,0.7,"cohesion, interfaces","__init__, initialize_result, find_include_file, read_file"
+C.py,SConsCPPConditionalScannerWrapper,potential,0.5,cohesion,"__init__, __call__, select"
+CTests.py,DummyEnvironment,sak,1.0,"large_class, cohesion, interfaces","__init__, get_calculator, Dir, File"
+CTests.py,CScannerTestCase1,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase2,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase3,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase4,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase5,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase6,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase8,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase10,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase11,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase12,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase13,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase14,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CScannerTestCase15,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CConditionalScannerTestCase1,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CConditionalScannerTestCase2,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,CConditionalScannerTestCase3,potential,0.7,"cohesion, interfaces",runTest
+CTests.py,SubstEnvironment,potential,0.5,"cohesion, interfaces",
+DTests.py,DummyEnvironment,sak,1.0,"large_class, cohesion, interfaces","__init__, get_calculator, Dir, File"
+DTests.py,DScannerTestCase,potential,0.7,"large_class, interfaces","test_BasicImport, test_StaticImport, test_publicImport, test_RenameImport, test_SelectiveImport, test_RenameAndSelectiveImport, test_ScopedImport, test_CombinatorialImport, test_SubdirsImport, test_MultipleImport, test_MultilineImport"
+FortranTests.py,DummyEnvironment,potential,0.5,cohesion,"__init__, get_calculator, Dir, File"
+FortranTests.py,FortranScannerTestCase1,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase2,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase3,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase4,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase5,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase6,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase7,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase8,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase9,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase10,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase12,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase13,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase14,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase15,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,FortranScannerTestCase16,potential,0.7,"cohesion, interfaces",runTest
+FortranTests.py,SubstEnvironment,potential,0.5,"cohesion, interfaces",
+IDLTests.py,DummyEnvironment,potential,0.5,cohesion,"__init__, get_calculator, Dir, File"
+IDLTests.py,IDLScannerTestCase1,potential,0.7,"cohesion, interfaces",runTest
+IDLTests.py,IDLScannerTestCase2,potential,0.7,"cohesion, interfaces",runTest
+IDLTests.py,IDLScannerTestCase3,potential,0.7,"cohesion, interfaces",runTest
+IDLTests.py,IDLScannerTestCase4,potential,0.7,"cohesion, interfaces",runTest
+IDLTests.py,IDLScannerTestCase5,potential,0.7,"cohesion, interfaces",runTest
+IDLTests.py,IDLScannerTestCase6,potential,0.7,"cohesion, interfaces",runTest
+IDLTests.py,IDLScannerTestCase7,potential,0.7,"cohesion, interfaces",runTest
+IDLTests.py,IDLScannerTestCase9,potential,0.7,"cohesion, interfaces",runTest
+IDLTests.py,IDLScannerTestCase10,potential,0.7,"cohesion, interfaces",runTest
+IDLTests.py,IDLScannerTestCase11,potential,0.7,"cohesion, interfaces",runTest
+IDLTests.py,IDLScannerTestCase12,potential,0.7,"cohesion, interfaces",runTest
+IDLTests.py,SubstEnvironment,potential,0.5,"cohesion, interfaces",
+JavaTests.py,DummyEnvironment,sak,1.0,"large_class, cohesion, interfaces","__init__, has_key, get_calculator, Dir, File"
+JavaTests.py,JavaScannerEmptyClasspath,potential,0.7,"cohesion, interfaces",runTest
+JavaTests.py,JavaScannerClasspath,potential,0.7,"cohesion, interfaces",runTest
+JavaTests.py,JavaScannerWildcardClasspath,potential,0.7,"cohesion, interfaces",runTest
+JavaTests.py,JavaScannerDirClasspath,potential,0.7,"cohesion, interfaces",runTest
+JavaTests.py,JavaScannerNamedDirClasspath,potential,0.7,"cohesion, interfaces",runTest
+JavaTests.py,JavaScannerSearchPathClasspath,potential,0.7,"cohesion, interfaces",runTest
+JavaTests.py,JavaScannerEmptyProcessorpath,potential,0.7,"cohesion, interfaces",runTest
+JavaTests.py,JavaScannerProcessorpath,potential,0.7,"cohesion, interfaces",runTest
+JavaTests.py,JavaScannerWildcardProcessorpath,potential,0.7,"cohesion, interfaces",runTest
+JavaTests.py,JavaScannerDirProcessorpath,potential,0.7,"cohesion, interfaces",runTest
+JavaTests.py,JavaScannerNamedDirProcessorpath,potential,0.7,"cohesion, interfaces",runTest
+JavaTests.py,JavaScannerSearchPathProcessorpath,potential,0.7,"cohesion, interfaces",runTest
+LaTeXTests.py,DummyEnvironment,sak,1.0,"large_class, cohesion, interfaces","__init__, get_calculator, Dir, File"
+LaTeXTests.py,LaTeXScannerTestCase1,potential,0.7,"cohesion, interfaces",runTest
+LaTeXTests.py,LaTeXScannerTestCase2,potential,0.7,"cohesion, interfaces",runTest
+LaTeXTests.py,LaTeXScannerTestCase3,potential,0.7,"cohesion, interfaces",runTest
+LaTeXTests.py,LaTeXScannerTestCase4,potential,0.7,"cohesion, interfaces",runTest
+LaTeXTests.py,LaTeXScannerTestCase5,potential,0.7,"cohesion, interfaces",runTest
+ProgTests.py,DummyEnvironment,potential,0.5,cohesion,"__init__, Dir, File"
+ProgTests.py,ProgramScannerTestCase1,potential,0.7,"cohesion, interfaces",runTest
+ProgTests.py,ProgramScannerTestCase2,potential,0.7,"cohesion, interfaces",runTest
+ProgTests.py,ProgramScannerTestCase3,potential,0.7,"cohesion, interfaces",runTest
+ProgTests.py,ProgramScannerTestCase5,potential,0.7,"cohesion, interfaces",runTest
+ProgTests.py,ProgramScannerTestCase6,potential,0.7,"cohesion, interfaces",runTest
+ProgTests.py,ProgramScannerTestCase7,potential,0.7,"cohesion, interfaces",runTest
+ProgTests.py,ProgramScannerTestCase8,potential,0.7,"cohesion, interfaces",runTest
+ProgTests.py,ProgramScannerTestCase9,potential,0.7,"cohesion, interfaces",runTest
+ProgTests.py,ProgramScannerTestCase10,potential,0.7,"cohesion, interfaces",runTest
+ProgTests.py,SubstEnvironment,potential,0.5,"cohesion, interfaces",
+PythonTests.py,DummyEnvironment,sak,1.0,"large_class, cohesion, interfaces","__init__, get_calculator, Dir, File"
+PythonTests.py,PythonScannerTestPythonPath,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestPythonCallablePath,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestImportSimplePackage,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestImportSimplePackageModule1As,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestImportSimplePackageModuleAs,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestFromImportSimplePackageModule1,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestFromImportSimplePackageModule1As,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestFromImportSimplePackageModulesNoSpace,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestFromImportSimplePackageModulesWithSpace,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestCurdirReferenceScript,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestImportsNested3,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestImportsGrandparentModule,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestImportsParentModule,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestImportsParentThenSubmodule,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestImportsModuleWithFunc,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestFromNested1ImportNested2,potential,0.7,"cohesion, interfaces",runTest
+PythonTests.py,PythonScannerTestImportUnknownFiles,potential,0.7,"cohesion, interfaces",runTest
+RCTests.py,DummyEnvironment,potential,0.7,"cohesion, interfaces","__init__, get_calculator, Dir, File"
+RCTests.py,RCScannerTestCase1,potential,0.7,"cohesion, interfaces",runTest
+RCTests.py,RCScannerTestCase2,potential,0.7,"cohesion, interfaces",runTest
+RCTests.py,RCScannerTestCase3,potential,0.7,"cohesion, interfaces",runTest
+ScannerTests.py,DummyFS,potential,0.5,cohesion,File
+ScannerTests.py,DummyEnvironment,potential,0.7,"cohesion, interfaces",__init__
+ScannerTests.py,DummyNode,potential,0.5,cohesion,"__init__, rexists, __str__"
+ScannerTests.py,FindPathDirsTestCase,potential,0.7,"cohesion, interfaces",test_FindPathDirs
+ScannerTests.py,ScannerTestCase,potential,0.7,"cohesion, interfaces",test_creation
+ScannerTests.py,ScannerBaseTestCase,potential,0.7,"large_class, interfaces","func, test, test___call__dict, test_path, test_positional, test_keywords, test_pos_opt, test_key_opt, test___cmp__, test_hash, test_scan_check, test_recursive, test_get_skeys, test_select, test_add_scanner, test___str__"
+ScannerTests.py,ClassicTestCase,potential,0.7,"cohesion, interfaces","func, test_find_include, test_name, test_scan, test_recursive"
+ScannerTests.py,ClassicCPPTestCase,potential,0.7,"cohesion, interfaces",test_find_include
+ScannerTests.py,MyNode,potential,0.5,cohesion,"__init__, rexists"
+ScannerTests.py,IsNotCurrent,potential,0.5,"cohesion, interfaces",
+ScannerTests.py,IsCurrent,potential,0.5,"cohesion, interfaces",
+ScannerTests.py,MyNode,potential,0.5,cohesion,"__init__, exists, get_contents"
+ScannerTests.py,MyScanner,potential,0.7,"cohesion, interfaces",find_include
+__init__.py,ScannerBase,potential,0.5,cohesion,"__init__, path, __call__, __str__, get_skeys, select, add_scanner"
+__init__.py,Current,potential,0.7,"cohesion, interfaces",__init__
+__init__.py,ClassicCPP,potential,0.7,"cohesion, interfaces",find_include

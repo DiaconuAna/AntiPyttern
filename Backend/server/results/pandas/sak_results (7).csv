@@ -1,0 +1,11 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+generic.py,NamedAgg,potential,0.5,"cohesion, interfaces",
+generic.py,SeriesGroupBy,sak,0.8,"large_class, cohesion","filter, skew, kurt, plot, idxmin, idxmax, corr"
+generic.py,DataFrameGroupBy,sak,0.8,"large_class, cohesion","filter, _gotitem, idxmax, idxmin, skew, kurt, plot, corr, corrwith"
+groupby.py,GroupByPlot,potential,0.5,"cohesion, interfaces",
+groupby.py,BaseGroupBy,potential,0.7,"cohesion, interfaces",get_group
+groupby.py,GroupBy,sak,0.8,"large_class, cohesion","count, var, prod, min, max, resample, rolling, expanding, ewm, ffill, bfill, quantile, ngroup, cumcount, rank, cumprod, cummin, cummax, head, tail, sample"
+ops.py,BaseGrouper,potential,0.6,"large_class, cohesion",
+ops.py,BinGrouper,potential,0.5,"large_class, interfaces",
+ops.py,SeriesSplitter,potential,0.5,"cohesion, interfaces",
+ops.py,FrameSplitter,potential,0.5,"cohesion, interfaces",

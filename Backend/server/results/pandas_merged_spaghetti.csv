@@ -1,0 +1,143 @@
+,File,Classification,Score,Smells
+0,__init__.py,clean,0.0,
+1,pickle_compat.py,clean,0.15,dead_code
+2,pyarrow.py,clean,0.15,dead_code
+3,_constants.py,clean,0.15,dead_code
+4,_optional.py,clean,0.15,dead_code
+5,__init__.py,clean,0.15,dead_code
+6,function.py,clean,0.15,dead_code
+8,accessor.py,clean,0.15,dead_code
+9,algorithms.py,clean,0.25,switch_stmt
+10,api.py,clean,0.0,
+11,apply.py,potential,0.4,"switch_stmt, dead_code"
+12,arraylike.py,clean,0.25,switch_stmt
+13,base.py,clean,0.25,switch_stmt
+14,common.py,clean,0.25,switch_stmt
+15,config_init.py,clean,0.0,
+16,construction.py,clean,0.25,switch_stmt
+17,flags.py,clean,0.0,
+18,frame.py,potential,0.4,"switch_stmt, dead_code"
+19,generic.py,potential,0.4,"switch_stmt, dead_code"
+20,indexing.py,clean,0.25,switch_stmt
+21,missing.py,clean,0.25,switch_stmt
+22,nanops.py,potential,0.55,"global_vars, switch_stmt"
+23,resample.py,potential,0.4,"switch_stmt, dead_code"
+24,roperator.py,clean,0.0,
+25,sample.py,clean,0.25,switch_stmt
+26,series.py,potential,0.4,"switch_stmt, dead_code"
+27,shared_docs.py,clean,0.0,
+28,sorting.py,clean,0.25,switch_stmt
+30,executor.py,clean,0.0,
+31,extensions.py,clean,0.15,dead_code
+33,mean_.py,clean,0.25,switch_stmt
+34,min_max_.py,clean,0.25,switch_stmt
+35,shared.py,clean,0.0,
+36,sum_.py,clean,0.25,switch_stmt
+37,var_.py,clean,0.25,switch_stmt
+40,doc.py,clean,0.0,
+41,ewm.py,potential,0.4,"switch_stmt, dead_code"
+42,expanding.py,clean,0.0,
+43,numba_.py,clean,0.0,
+44,online.py,clean,0.0,
+45,rolling.py,clean,0.25,switch_stmt
+47,hashing.py,clean,0.25,switch_stmt
+48,numba_.py,clean,0.3,global_vars
+50,datetimes.py,potential,0.4,"switch_stmt, dead_code"
+51,numeric.py,clean,0.25,switch_stmt
+52,timedeltas.py,clean,0.0,
+53,times.py,clean,0.0,
+55,accessor.py,potential,0.4,"switch_stmt, dead_code"
+56,base.py,clean,0.15,dead_code
+57,object_array.py,potential,0.4,"switch_stmt, dead_code"
+62,concat.py,clean,0.25,switch_stmt
+63,encoding.py,clean,0.25,switch_stmt
+64,melt.py,clean,0.25,switch_stmt
+65,merge.py,clean,0.25,switch_stmt
+66,pivot.py,clean,0.25,switch_stmt
+67,reshape.py,clean,0.25,switch_stmt
+68,tile.py,clean,0.25,switch_stmt
+70,array_ops.py,clean,0.25,switch_stmt
+72,dispatch.py,clean,0.0,
+73,docstrings.py,clean,0.0,
+74,invalid.py,clean,0.0,
+75,mask_ops.py,clean,0.0,
+76,missing.py,clean,0.0,
+78,describe.py,clean,0.15,dead_code
+79,selectn.py,clean,0.0,
+80,to_dict.py,clean,0.0,
+82,api.py,clean,0.15,dead_code
+83,blocks.py,potential,0.4,"switch_stmt, dead_code"
+86,managers.py,potential,0.4,"switch_stmt, dead_code"
+87,ops.py,clean,0.25,switch_stmt
+89,buffer.py,clean,0.15,dead_code
+90,column.py,clean,0.25,switch_stmt
+91,dataframe.py,clean,0.15,dead_code
+92,dataframe_protocol.py,clean,0.15,dead_code
+93,from_dataframe.py,clean,0.25,switch_stmt
+94,utils.py,potential,0.4,"switch_stmt, dead_code"
+96,accessors.py,clean,0.25,switch_stmt
+97,api.py,clean,0.25,switch_stmt
+98,base.py,potential,0.4,"switch_stmt, dead_code"
+99,category.py,clean,0.0,
+100,datetimelike.py,clean,0.25,switch_stmt
+102,extension.py,clean,0.15,dead_code
+103,frozen.py,clean,0.15,dead_code
+104,interval.py,clean,0.25,switch_stmt
+105,multi.py,potential,0.4,"switch_stmt, dead_code"
+106,period.py,potential,0.4,"switch_stmt, dead_code"
+107,range.py,potential,0.4,"switch_stmt, dead_code"
+108,timedeltas.py,clean,0.25,switch_stmt
+110,objects.py,clean,0.15,dead_code
+111,utils.py,clean,0.25,switch_stmt
+114,categorical.py,clean,0.0,
+116,groupby.py,potential,0.4,"switch_stmt, dead_code"
+117,grouper.py,clean,0.25,switch_stmt
+123,astype.py,clean,0.25,switch_stmt
+125,cast.py,potential,0.4,"switch_stmt, dead_code"
+126,common.py,potential,0.55,"global_vars, switch_stmt"
+128,dtypes.py,potential,0.4,"switch_stmt, dead_code"
+129,generic.py,clean,0.15,dead_code
+130,inference.py,clean,0.0,
+133,align.py,clean,0.25,switch_stmt
+135,check.py,clean,0.0,
+136,common.py,clean,0.0,
+137,engines.py,clean,0.15,dead_code
+138,eval.py,clean,0.25,switch_stmt
+139,expr.py,potential,0.4,"switch_stmt, dead_code"
+140,expressions.py,potential,0.4499999999999999,"global_vars, dead_code"
+142,parsing.py,clean,0.25,switch_stmt
+143,pytables.py,potential,0.4,"switch_stmt, dead_code"
+144,scope.py,clean,0.0,
+146,datetimelike_accumulations.py,clean,0.0,
+147,masked_accumulations.py,clean,0.0,
+148,masked_reductions.py,clean,0.0,
+149,putmask.py,clean,0.0,
+150,quantile.py,clean,0.0,
+151,replace.py,clean,0.0,
+152,take.py,clean,0.25,switch_stmt
+153,transforms.py,clean,0.0,
+156,boolean.py,clean,0.25,switch_stmt
+157,categorical.py,potential,0.4,"switch_stmt, dead_code"
+158,datetimelike.py,potential,0.4,"switch_stmt, dead_code"
+160,floating.py,clean,0.0,
+161,integer.py,clean,0.0,
+162,interval.py,potential,0.4,"switch_stmt, dead_code"
+163,masked.py,clean,0.25,switch_stmt
+164,numeric.py,potential,0.4,"switch_stmt, dead_code"
+165,numpy_.py,clean,0.25,switch_stmt
+167,string_.py,clean,0.25,switch_stmt
+168,string_arrow.py,clean,0.15,dead_code
+170,_arrow_string_mixins.py,potential,0.4,"switch_stmt, dead_code"
+171,_mixins.py,clean,0.25,switch_stmt
+172,_ranges.py,clean,0.25,switch_stmt
+173,_utils.py,clean,0.25,switch_stmt
+176,array.py,potential,0.4,"switch_stmt, dead_code"
+177,scipy_sparse.py,clean,0.0,
+179,accessors.py,clean,0.0,
+181,extension_types.py,clean,0.0,
+182,_arrow_utils.py,clean,0.0,
+184,internals.py,clean,0.15,dead_code
+192,config.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+193,dates.py,clean,0.0,
+194,display.py,clean,0.3,global_vars
+195,localization.py,clean,0.15,dead_code

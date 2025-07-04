@@ -1,0 +1,49 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+base.py,ExtensionArray,sak,0.8,"large_class, cohesion","_from_scalars, dtype, interpolate, unique, factorize, transpose, T, _hash_pandas_object, _mode"
+base.py,ExtensionArraySupportsAnyAll,potential,0.7,"cohesion, interfaces","all, all, all"
+base.py,ExtensionOpsMixin,potential,0.5,cohesion,"_add_arithmetic_ops, _add_comparison_ops, _add_logical_ops"
+base.py,ExtensionScalarOpsMixin,potential,0.5,"cohesion, interfaces",
+boolean.py,BooleanDtype,potential,0.7,"cohesion, interfaces","type, _is_boolean"
+boolean.py,BooleanArray,potential,0.7,"cohesion, interfaces","dtype, _logical_method"
+categorical.py,Categorical,sak,1.0,"large_class, cohesion, interfaces","dtype, _from_scalars, _from_inferred_categories, categories, ordered, as_ordered, as_unordered, reorder_categories, add_categories, remove_categories, remove_unused_categories, _hash_pandas_object, _reverse_indexer, min, _mode, unique, describe"
+datetimelike.py,DatetimeLikeArrayMixin,sak,1.0,"large_class, cohesion, interfaces","resolution, _is_monotonic_increasing, _is_monotonic_decreasing, _is_unique, min, median, _mode"
+datetimelike.py,DatelikeOps,potential,0.7,"cohesion, interfaces",strftime
+datetimelike.py,TimelikeOps,sak,1.0,"large_class, cohesion, interfaces","_validate_dtype, freq, freq, unit, as_unit, _round, round, floor, ceil, all, factorize, interpolate"
+datetimes.py,DatetimeArray,sak,1.0,"large_class, cohesion, interfaces","_from_scalars, _validate_dtype, dtype, tz, tz, is_normalized, tz_convert, tz_localize, to_pydatetime, normalize, month_name, day_name, time, timetz, date, isocalendar, to_julian_date"
+floating.py,FloatingDtype,potential,0.5,"cohesion, interfaces",
+floating.py,FloatingArray,potential,0.5,"cohesion, interfaces",
+floating.py,Float32Dtype,potential,0.5,"cohesion, interfaces",
+floating.py,Float64Dtype,potential,0.5,"cohesion, interfaces",
+integer.py,IntegerDtype,potential,0.5,"cohesion, interfaces",
+integer.py,IntegerArray,potential,0.5,"cohesion, interfaces",
+integer.py,Int8Dtype,potential,0.5,"cohesion, interfaces",
+integer.py,Int16Dtype,potential,0.5,"cohesion, interfaces",
+integer.py,Int32Dtype,potential,0.5,"cohesion, interfaces",
+integer.py,Int64Dtype,potential,0.5,"cohesion, interfaces",
+integer.py,UInt8Dtype,potential,0.5,"cohesion, interfaces",
+integer.py,UInt16Dtype,potential,0.5,"cohesion, interfaces",
+integer.py,UInt32Dtype,potential,0.5,"cohesion, interfaces",
+integer.py,UInt64Dtype,potential,0.5,"cohesion, interfaces",
+interval.py,IntervalArray,sak,1.0,"large_class, cohesion, interfaces","from_tuples, _validate, dtype, min, mid, overlaps, closed, set_closed, is_non_overlapping_monotonic, to_tuples, unique"
+masked.py,BaseMaskedArray,sak,1.0,"large_class, cohesion, interfaces","dtype, T, round, _hash_pandas_object, unique, factorize, _mode, var, min, all, all, all, interpolate"
+numeric.py,NumericDtype,potential,0.7,"cohesion, interfaces",is_unsigned_integer
+numpy_.py,NumpyExtensionArray,sak,1.0,"large_class, cohesion, interfaces","dtype, interpolate, all, min, median, var, sem, kurt, skew"
+period.py,PeriodArray,sak,1.0,"large_class, cohesion, interfaces","_from_fields, dtype, freq, is_leap_year, _check_timedeltalike_freq_compat"
+string_.py,StringDtype,potential,0.7,"cohesion, interfaces","name, type, _get_common_dtype"
+string_.py,BaseStringArray,potential,0.7,"cohesion, interfaces",_from_scalars
+string_.py,StringArray,sak,1.0,"large_class, cohesion, interfaces","_validate, min"
+string_.py,StringArrayNumpySemantics,potential,0.7,"cohesion, interfaces",_validate
+string_arrow.py,ArrowStringArray,potential,0.7,"cohesion, interfaces","dtype, _str_find"
+string_arrow.py,ArrowStringArrayNumpySemantics,potential,0.5,"cohesion, interfaces",
+timedeltas.py,TimedeltaArray,potential,0.7,"cohesion, interfaces","dtype, _validate_dtype, total_seconds, to_pytimedelta"
+_mixins.py,NDArrayBackedExtensionArray,sak,1.0,"large_class, cohesion, interfaces","_hash_pandas_object, unique"
+accessor.py,BaseAccessor,potential,0.5,cohesion,_validate
+accessor.py,SparseAccessor,potential,0.7,"cohesion, interfaces","_validate, _delegate_property_get, _delegate_method"
+accessor.py,SparseFrameAccessor,potential,0.7,"cohesion, interfaces","_validate, from_spmatrix"
+array.py,SparseArray,sak,1.0,"large_class, cohesion, interfaces","from_spmatrix, dtype, unique, factorize, all, min"
+array.py,ellipsis,potential,0.5,"cohesion, interfaces",
+accessors.py,ArrowAccessor,potential,0.5,cohesion,_validate
+array.py,ArrowExtensionArray,sak,1.0,"large_class, cohesion, interfaces","_logical_method, dtype, all, all, all, factorize, round, unique, _mode, interpolate, _str_join, _str_partition, _str_rpartition, _str_casefold, _str_encode, _str_extract, _str_findall, _str_index, _str_rindex, _str_normalize, _str_rfind, _str_split, _str_rsplit, _str_translate, _str_wrap, _dt_days, _dt_hours, _dt_minutes, _dt_seconds, _dt_milliseconds, _dt_microseconds, _dt_nanoseconds, _dt_to_pytimedelta, _dt_total_seconds, _dt_as_unit, _dt_year, _dt_day, _dt_hour, _dt_isocalendar, _dt_is_leap_year, _dt_is_month_start, _dt_is_month_end, _dt_is_year_start, _dt_is_year_end, _dt_is_quarter_start, _dt_is_quarter_end, _dt_microsecond, _dt_minute, _dt_month, _dt_nanosecond, _dt_quarter, _dt_second, _dt_date, _dt_time, _dt_tz, _dt_unit, _dt_normalize, _dt_strftime, _dt_ceil, _dt_floor, _dt_round, _dt_day_name, _dt_month_name, _dt_to_pydatetime, _dt_tz_localize, _dt_tz_convert"
+extension_types.py,ArrowPeriodType,potential,0.7,"cohesion, interfaces",freq
+extension_types.py,ArrowIntervalType,potential,0.7,"cohesion, interfaces",closed
+extension_types.py,ForbiddenExtensionType,potential,0.5,"cohesion, interfaces",

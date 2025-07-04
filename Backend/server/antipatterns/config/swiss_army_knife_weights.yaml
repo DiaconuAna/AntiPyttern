@@ -1,0 +1,16 @@
+smells:
+  large_class:
+    weight: 0.3
+
+  speculative_gen:
+    weight: 0.2
+
+  cohesion:
+    weight: 0.3
+
+  interfaces:
+    weight: 0.2
+
+thresholds:
+  potential_sak: 0.5
+  sak: 0.8

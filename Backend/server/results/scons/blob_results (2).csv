@@ -1,0 +1,4 @@
+File,Class,Is Blob Controller,Is Data Class,Smells
+Alias.py,Alias,True,False,"large_class, low_cohesion, comment_heavy"
+NodeTests.py,NodeTestCase,True,False,"large_class, low_cohesion, long_method"
+Python.py,Value,True,False,"large_class, low_cohesion, comment_heavy"

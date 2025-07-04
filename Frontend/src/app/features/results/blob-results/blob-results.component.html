@@ -1,0 +1,65 @@
+<h2 class="text-xl font-bold mt-6 mb-2">Blob Results</h2>
+
+<ng-container *ngFor="let file of blobResults">
+  <div *ngIf="file.classes?.length > 0" class="mb-6 border border-gray-300 rounded p-4 shadow-sm">
+    <div class="flex justify-between items-center">
+      <h3 class="text-lg font-medium text-blue-800">File: {{ file.file }}</h3>
+      <button class="text-sm text-blue-600 hover:underline" (click)="toggleFile(file.file)">
+        {{ isExpanded(file.file) ? 'Hide' : 'Show' }} Details
+      </button>
+    </div>
+
+    <div *ngIf="isExpanded(file.file)">
+      <div *ngFor="let cls of file.classes" class="border-t pt-4 mt-4">
+        <h4 class="font-semibold text-gray-800">Class: {{ cls.class_name }}</h4>
+
+        <p>
+          Is Blob Controller?
+          <span
+            [ngClass]="{
+              'text-green-600': cls.is_blob_controller,
+              'text-red-600': !cls.is_blob_controller
+            }"
+          >
+            {{ cls.is_blob_controller }}
+          </span>
+        </p>
+
+        <p>
+          Is Data Class?
+          <span
+            [ngClass]="{
+              'text-yellow-600': cls.is_data_class,
+              'text-gray-600': !cls.is_data_class
+            }"
+          >
+            {{ cls.is_data_class }}
+          </span>
+        </p>
+
+        <div *ngIf="cls.is_blob_controller && !cls.is_data_class && cls.blob_smells">
+          <h5 class="font-medium mt-2">Detected Smells:</h5>
+          <ul class="list-disc list-inside">
+            <li *ngIf="cls.blob_smells.large_class">
+              <span class="text-red-600">Large Class</span>
+            </li>
+            <li *ngIf="cls.blob_smells.low_cohesion">
+              <span class="text-red-600">Low Cohesion</span>
+            </li>
+            <li *ngIf="cls.blob_smells.long_method">
+              <span class="text-red-600">Long Methods</span>
+            </li>
+            <li *ngIf="cls.blob_smells.feature_envy">
+              <span class="text-red-600">Feature Envy (Accessing Too Much External Data)</span>
+            </li>
+            <li *ngIf="cls.blob_smells.comment_heavy">
+              <span class="text-red-600">Comment-Heavy Code (May Be Hard to Understand)</span>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</ng-container>

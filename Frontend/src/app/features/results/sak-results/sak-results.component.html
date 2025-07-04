@@ -1,0 +1,59 @@
+<h2 class="text-xl font-bold mt-6 mb-2">Swiss Army Knife Results</h2>
+
+<ng-container *ngFor="let file of sakResults">
+  <div *ngIf="file.results?.length > 0" class="mb-6 border border-gray-300 rounded p-4 shadow-sm">
+    <div class="flex justify-between items-center">
+      <h3 class="text-lg font-medium text-blue-800">File: {{ file.file }}</h3>
+      <button class="text-sm text-blue-600 hover:underline" (click)="toggleFile(file.file)">
+        {{ isExpanded(file.file) ? 'Hide' : 'Show' }} Details
+      </button>
+    </div>
+
+    <div *ngIf="isExpanded(file.file)">
+      <div *ngFor="let cls of file.results" class="border-t pt-4 mt-4">
+        <h4 class="font-semibold text-gray-800">Class: {{ cls.class }}</h4>
+
+        <p>
+          Classification:
+          <span
+            [ngClass]="{
+              'text-red-600': cls.classification === 'sak',
+              'text-yellow-600': cls.classification === 'potential'
+            }"
+                    >
+            {{
+              cls.classification === 'sak'
+                ? 'Swiss Army Knife code'
+                : cls.classification === 'potential'
+                  ? 'Code with potential to become Swiss Army Knife'
+                  : cls.classification
+            }}
+          </span>
+        </p>
+
+        <p>Score: {{ cls.score }} / 1.00</p>
+
+        <div *ngIf="cls.smells">
+          <h5 class="font-medium mt-2">Detected Smells:</h5>
+          <ul class="list-disc list-inside">
+            <li *ngIf="cls.smells.cohesion">
+              <span class="text-red-600">Low Cohesion</span>
+            </li>
+            <li *ngIf="cls.smells.large_class">
+              <span class="text-red-600">Large Class with Too Many Methods</span>
+            </li>
+            <li *ngIf="cls.smells.interfaces">
+              <span class="text-red-600">Multiple Interfaces</span>
+            </li>
+            <li *ngIf="cls.smells.speculative_gen?.length">
+              <span class="text-red-600">Speculative Generality - potentially unused methods:</span>
+              <span class="ml-2 text-gray-800">
+                {{ cls.smells.speculative_gen.join(', ') }}
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>

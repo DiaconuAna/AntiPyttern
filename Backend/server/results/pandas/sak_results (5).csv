@@ -1,0 +1,16 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+engines.py,NumExprEngine,potential,0.5,"cohesion, interfaces",
+engines.py,PythonEngine,potential,0.5,"cohesion, interfaces",
+expr.py,BaseExprVisitor,potential,0.5,"large_class, interfaces",
+expr.py,PandasExprVisitor,potential,0.5,"cohesion, interfaces",
+expr.py,PythonExprVisitor,potential,0.5,"cohesion, interfaces",
+ops.py,Term,sak,0.8,"large_class, cohesion","raw, name"
+ops.py,Constant,potential,0.7,"cohesion, interfaces",name
+ops.py,BinOp,potential,0.5,"cohesion, interfaces",
+ops.py,UnaryOp,potential,0.5,"cohesion, interfaces",
+ops.py,MathCall,potential,0.5,"cohesion, interfaces",
+parsing.py,ParseState,potential,0.5,"cohesion, interfaces",
+pytables.py,PyTablesScope,potential,0.5,"cohesion, interfaces",
+pytables.py,Term,potential,0.5,"cohesion, interfaces",
+pytables.py,BinOp,potential,0.5,"large_class, interfaces",
+pytables.py,JointFilterBinOp,potential,0.7,"cohesion, interfaces",format

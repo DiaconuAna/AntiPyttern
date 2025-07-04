@@ -1,0 +1,25 @@
+File,Classification,Score,Smells
+app.py,potential,0.4,"switch_stmt, dead_code"
+blueprints.py,clean,0.15,dead_code
+cli.py,potential,0.4,"switch_stmt, dead_code"
+config.py,clean,0.15,dead_code
+ctx.py,clean,0.15,dead_code
+debughelpers.py,potential,0.4,"switch_stmt, dead_code"
+globals.py,clean,0.0,
+helpers.py,clean,0.25,switch_stmt
+logging.py,clean,0.0,
+sessions.py,clean,0.15,dead_code
+signals.py,clean,0.0,
+templating.py,clean,0.0,
+testing.py,potential,0.44999999999999996,"global_vars, dead_code"
+typing.py,clean,0.15,dead_code
+views.py,clean,0.15,dead_code
+wrappers.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+__main__.py,clean,0.0,
+app.py,potential,0.4,"switch_stmt, dead_code"
+blueprints.py,potential,0.4,"switch_stmt, dead_code"
+scaffold.py,potential,0.4,"switch_stmt, dead_code"
+provider.py,clean,0.0,
+tag.py,clean,0.0,
+__init__.py,clean,0.0,

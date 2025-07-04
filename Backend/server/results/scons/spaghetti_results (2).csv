@@ -1,0 +1,9 @@
+File,Classification,Score,Smells
+Alias.py,clean,0.15,dead_code
+AliasTests.py,clean,0.15,dead_code
+FS.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+FSTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+NodeTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+Python.py,potential,0.44999999999999996,"global_vars, dead_code"
+PythonTests.py,clean,0.15,dead_code
+__init__.py,potential,0.4,"switch_stmt, dead_code"

@@ -1,0 +1,6 @@
+File,Classification,Score,Smells
+bump_changelog.py,clean,0.0,
+check_newsfragments.py,clean,0.0,
+create_contributor_list.py,clean,0.0,
+get_unused_message_id_category.py,clean,0.0,
+__init__.py,clean,0.0,

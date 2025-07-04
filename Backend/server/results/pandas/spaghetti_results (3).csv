@@ -1,0 +1,8 @@
+File,Classification,Score,Smells
+pickle_compat.py,clean,0.15,dead_code
+pyarrow.py,clean,0.15,dead_code
+_constants.py,clean,0.15,dead_code
+_optional.py,clean,0.15,dead_code
+__init__.py,clean,0.15,dead_code
+function.py,clean,0.15,dead_code
+__init__.py,clean,0.15,dead_code

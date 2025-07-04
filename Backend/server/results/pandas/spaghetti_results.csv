@@ -1,0 +1,9 @@
+File,Classification,Score,Smells
+internals.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+__init__.py,clean,0.0,
+__init__.py,clean,0.0,
+__init__.py,clean,0.0,
+__init__.py,clean,0.0,
+__init__.py,clean,0.0,
+__init__.py,clean,0.0,

@@ -1,0 +1,8 @@
+File,Class,Is Blob Controller,Is Data Class,Smells
+Interactive.py,SConsInteractiveCmd,True,False,"large_class, low_cohesion, comment_heavy"
+Main.py,BuildTask,True,False,"large_class, low_cohesion"
+SConscript.py,SConsEnvironment,True,False,"large_class, low_cohesion, comment_heavy"
+SConsOptions.py,SConsValues,True,False,"large_class, low_cohesion"
+SConsOptions.py,SConsOptionParser,True,False,"large_class, low_cohesion"
+SConsOptions.py,SConsIndentedHelpFormatter,True,False,"large_class, low_cohesion"
+ScriptTests.py,TestScriptFunctions,True,False,"large_class, low_cohesion, comment_heavy"

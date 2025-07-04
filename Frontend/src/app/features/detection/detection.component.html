@@ -1,0 +1,71 @@
+<div class="flex flex-col items-center justify-center min-h-screen bg-white">
+  <h1 class="text-6xl font-bold text-gray-800 mb-10">
+    Anti<span class="text-blue-600">P</span><span class="text-yellow-400">Y</span>ttern
+  </h1>
+
+  <div class="w-full max-w-xl px-4">
+    <input
+      type="text"
+      placeholder="Please enter link to GitHub repository"
+      [(ngModel)]="githubRepoUrl"
+      class="w-full px-5 py-3 border border-gray-300 rounded-full shadow-sm focus:outline-none focus:ring focus:ring-gray-300"
+    />
+  </div>
+
+  <div class="relative my-8 w-full max-w-md text-center">
+    <div class="absolute inset-0 flex items-center">
+      <div class="w-full border-t border-gray-300"></div>
+    </div>
+    <div class="relative bg-white px-4 text-sm text-gray-500">OR</div>
+  </div>
+
+  <div class="w-full max-w-xl px-4 text-center space-y-4">
+    <label
+      class="cursor-pointer block px-6 py-3 border border-gray-600 text-gray-600 rounded-full hover:bg-gray-100 transition"
+    >
+      <input
+        type="file"
+        #singleFileInput
+        class="hidden"
+        (change)="onFilesSelected($event)"
+      />
+      Upload single file
+    </label>
+
+    <label
+      class="cursor-pointer block px-6 py-3 border border-gray-600 text-gray-600 rounded-full hover:bg-gray-100 transition"
+    >
+      <input
+        type="file"
+        #folderInput
+        class="hidden"
+        multiple
+        webkitdirectory
+        (change)="onFilesSelected($event)"
+      />
+      Upload folder
+    </label>
+  </div>
+
+
+  <div class="flex flex-col items-center mt-10 space-y-4 w-full max-w-xl px-4">
+    <button class="bg-blue-600 text-white px-6 py-3 rounded-full shadow hover:bg-blue-700 transition"
+            (click)="onScanClicked(singleFileInput, folderInput)">
+      Scan
+    </button>
+
+    <div class="flex items-center gap-4">
+      <label for="defectType" class="text-gray-700 font-medium">Look for:</label>
+      <select
+        id="defectType"
+        [(ngModel)]="selectedDefect"
+        class="px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring focus:ring-gray-300"
+      >
+        <option value="blob">Blob</option>
+        <option value="spaghetti">Spaghetti Code</option>
+        <option value="sak">Swiss Army Knife</option>
+        <option value="all">All of the above</option>
+      </select>
+    </div>
+  </div>
+</div>

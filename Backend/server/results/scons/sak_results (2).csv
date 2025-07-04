@@ -1,0 +1,95 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+applelink.py,AppleLinkInvalidCurrentVersionException,potential,0.5,"cohesion, interfaces",
+applelink.py,AppleLinkInvalidCompatibilityVersionException,potential,0.5,"cohesion, interfaces",
+compilation_db.py,__CompilationDbNode,potential,0.7,"cohesion, interfaces",__init__
+FortranCommonTests.py,DummyEnvironment,potential,0.5,cohesion,"__init__, subst, get_calculator, get_factory"
+GettextCommon.py,XgettextToolWarning,potential,0.5,"cohesion, interfaces",
+GettextCommon.py,XgettextNotFound,potential,0.5,"cohesion, interfaces",
+GettextCommon.py,MsginitToolWarning,potential,0.5,"cohesion, interfaces",
+GettextCommon.py,MsginitNotFound,potential,0.5,"cohesion, interfaces",
+GettextCommon.py,MsgmergeToolWarning,potential,0.5,"cohesion, interfaces",
+GettextCommon.py,MsgmergeNotFound,potential,0.5,"cohesion, interfaces",
+GettextCommon.py,MsgfmtToolWarning,potential,0.5,"cohesion, interfaces",
+GettextCommon.py,MsgfmtNotFound,potential,0.5,"cohesion, interfaces",
+GettextCommon.py,_POFileBuilder,potential,0.7,"cohesion, interfaces","__init__, _execute"
+install.py,CopytreeError,potential,0.5,"cohesion, interfaces",
+intelc.py,IntelCError,potential,0.5,"cohesion, interfaces",
+intelc.py,MissingRegistryError,potential,0.5,"cohesion, interfaces",
+intelc.py,MissingDirError,potential,0.5,"cohesion, interfaces",
+intelc.py,NoRegistryModuleError,potential,0.5,"cohesion, interfaces",
+intelc.py,ICLTopDirWarning,potential,0.5,"cohesion, interfaces",
+intelc.py,ICLLicenseDirWarning,potential,0.5,"cohesion, interfaces",
+JavaCommon.py,OuterState,potential,0.5,cohesion,__init__
+JavaCommon.py,ScopeState,potential,0.5,cohesion,__init__
+JavaCommonTests.py,parse_javaTestCase,sak,1.0,"large_class, cohesion, interfaces","test_bare_bones, test_file_parser, test_dollar_sign, test_inner_classes, test_comments, test_arrays, test_backslash, test_enum, test_anon_classes, test_closing_bracket, test_dot_class_attributes, test_anonymous_classes_with_parentheses, test_nested_anonymous_inner_classes, test_lambda_after_new, test_private_inner_class_instantiation, test_floating_point_numbers, test_genercis, test_in_function_class_declaration, test_jdk_globs"
+javacTests.py,pathoptTestCase,potential,0.7,"large_class, interfaces","test_unset, test_str, test_list_str, test_uses_pathsep, test_node, test_list_node, test_default_str, test_default_list, test_default_unset, test_list_within_list"
+msgfmt.py,_MOFileBuilder,potential,0.7,"cohesion, interfaces",_execute
+msvs.py,_DSPGenerator,potential,0.5,cohesion,"__init__, Build"
+msvs.py,_DSWGenerator,potential,0.5,cohesion,"__init__, Build"
+msvsTests.py,DummyEnv,potential,0.5,cohesion,"__init__, Dictionary, get, subst"
+msvsTests.py,RegKey,potential,0.5,cohesion,__init__
+msvsTests.py,msvsTestCase,potential,0.7,"cohesion, interfaces","test_get_default_version, _TODO_test_merge_default_version, test_query_versions, test_config_generation"
+msvsTests.py,msvs6aTestCase,potential,0.5,"cohesion, interfaces",
+msvsTests.py,msvs6bTestCase,potential,0.5,"cohesion, interfaces",
+msvsTests.py,msvs6and7TestCase,potential,0.5,"cohesion, interfaces",
+msvsTests.py,msvs7TestCase,potential,0.5,"cohesion, interfaces",
+msvsTests.py,msvs71TestCase,potential,0.5,"cohesion, interfaces",
+msvsTests.py,msvs8ExpTestCase,potential,0.5,"cohesion, interfaces",
+msvsTests.py,msvs80TestCase,potential,0.5,"cohesion, interfaces",
+msvsTests.py,msvs140TestCase,potential,0.5,"cohesion, interfaces",
+msvsTests.py,msvsEmptyTestCase,potential,0.5,"cohesion, interfaces",
+msvsTests.py,_DummyEnv,potential,0.7,"cohesion, interfaces",subst
+qt3.py,ToolQtWarning,potential,0.5,"cohesion, interfaces",
+qt3.py,GeneratedMocFileNotIncluded,potential,0.5,"cohesion, interfaces",
+qt3.py,QtdirNotFound,potential,0.5,"cohesion, interfaces",
+ToolTests.py,DummyEnvironment,potential,0.5,cohesion,"__init__, subst"
+ToolTests.py,ToolTestCase,potential,0.7,"cohesion, interfaces","test_Tool, test_pathfind"
+wixTests.py,WixTestCase,potential,0.7,"cohesion, interfaces",test_vars
+xgettext.py,_POTBuilder,potential,0.7,"cohesion, interfaces",_execute
+__init__.py,ToolInitializer,potential,0.5,cohesion,__init__
+ninja_scons_daemon.py,StateInfo,potential,0.5,cohesion,__init__
+Overrides.py,AlwaysExecAction,potential,0.5,"cohesion, interfaces",
+Utils.py,NinjaExperimentalWarning,potential,0.5,"cohesion, interfaces",
+UtilsTests.py,TestGenerateCommand,potential,0.7,"large_class, interfaces","test_command_action, test_list_action, test_dollar_escaping, test_command_generator_action, test_function_action_simple, test_function_action_with_args, test_lazy_action_str, test_lazy_action_function"
+arch.py,ArchDefinition,potential,0.5,cohesion,__init__
+common.py,MSVCCacheInvalidWarning,potential,0.5,"cohesion, interfaces",
+sdk.py,SDKDefinition,potential,0.5,cohesion,__init__
+sdk.py,WindowsSDK,potential,0.7,"cohesion, interfaces",__init__
+sdk.py,PlatformSDK,potential,0.7,"cohesion, interfaces",__init__
+vc.py,MSVCUnsupportedHostArch,potential,0.5,"cohesion, interfaces",
+vc.py,MSVCUnsupportedTargetArch,potential,0.5,"cohesion, interfaces",
+vc.py,MSVCScriptNotFound,potential,0.5,"cohesion, interfaces",
+vc.py,MSVCUseScriptError,potential,0.5,"cohesion, interfaces",
+vc.py,MSVCUseSettingsError,potential,0.5,"cohesion, interfaces",
+vc.py,VSWhereUserError,potential,0.5,"cohesion, interfaces",
+vc.py,UnsupportedVersion,potential,0.5,"cohesion, interfaces",
+vc.py,BatchFileExecutionError,potential,0.5,"cohesion, interfaces",
+vc.py,VSWhereBinary,potential,0.7,"cohesion, interfaces",factory
+vc.py,_VSWhereExecutable,sak,1.0,"large_class, cohesion, interfaces","reset, _vswhere_all_executables"
+vc.py,MSVCInstance,potential,0.5,"cohesion, interfaces",
+vc.py,_VSWhere,potential,0.7,"cohesion, interfaces",reset
+vc.py,_VSWhereUserPriority,potential,0.5,"cohesion, interfaces",
+vcTests.py,MsvcSdkVersionsTests,potential,0.7,"cohesion, interfaces","test_valid_default_msvc, test_valid_vcver, test_valid_vcver_toolsets, test_invalid_vcver, test_invalid_vcver_toolsets"
+vcTests.py,MsvcToolsetVersionsTests,potential,0.7,"cohesion, interfaces","test_valid_default_msvc, test_valid_vcver, test_invalid_vcver"
+vcTests.py,MsvcToolsetVersionsSpectreTests,potential,0.7,"cohesion, interfaces","test_valid_default_msvc, test_valid_vcver, test_invalid_vcver"
+vs.py,VisualStudio,potential,0.5,large_class,"__init__, get_executable, reset"
+DispatcherTests.py,StaticMethods,potential,0.5,cohesion,"_reset, reset, _verify, verify"
+DispatcherTests.py,ClassMethods,potential,0.5,cohesion,"_reset, reset, _verify, verify"
+Exceptions.py,VisualCException,potential,0.5,"cohesion, interfaces",
+Exceptions.py,MSVCInternalError,potential,0.5,"cohesion, interfaces",
+Exceptions.py,MSVCUserError,potential,0.5,"cohesion, interfaces",
+Exceptions.py,MSVCScriptExecutionError,potential,0.5,"cohesion, interfaces",
+Exceptions.py,MSVCVersionNotFound,potential,0.5,"cohesion, interfaces",
+Exceptions.py,MSVCSDKVersionNotFound,potential,0.5,"cohesion, interfaces",
+Exceptions.py,MSVCToolsetVersionNotFound,potential,0.5,"cohesion, interfaces",
+Exceptions.py,MSVCSpectreLibsNotFound,potential,0.5,"cohesion, interfaces",
+Exceptions.py,MSVCArgumentError,potential,0.5,"cohesion, interfaces",
+PolicyTests.py,PolicyTests,sak,1.0,"large_class, cohesion, interfaces","test_notfound_func_valid_symbols, test_notfound_func_invalid_symbol, test_notfound_handler_invalid_symbol, test_notfound_handler_ignore, test_notfound_handler_warning, test_notfound_handler_error, test_scripterror_func_valid_symbols, test_scripterror_func_invalid_symbol, test_scripterror_handler_invalid_symbol, test_scripterror_handler_ignore, test_scripterror_handler_warning, test_scripterror_handler_error"
+ScriptArguments.py,SortOrder,potential,0.5,"cohesion, interfaces",
+ScriptArgumentsTests.py,Data,potential,0.5,cohesion,msvc_sdk_version
+ScriptArgumentsTests.py,ScriptArgumentsTests,sak,1.0,"large_class, cohesion, interfaces","test_verify, test_msvc_script_arguments_defaults, test_msvc_toolset_versions_internal, test_msvc_toolset_internal, test_msvc_script_args_none, test_msvc_script_args, test_reset"
+SetupEnvDefault.py,_Data,potential,0.5,cohesion,reset
+UtilTests.py,UtilTests,potential,0.7,"large_class, interfaces","test_listdir_dirs, test_resolve_path, test_normalize_path, test_get_version_prefix, test_get_msvc_version_prefix, test_is_toolset_full, test_is_toolset_140, test_is_toolset_sxs, test_msvc_version_components, test_msvc_extended_version_components, test_msvc_sdk_version_components"
+Warnings.py,VisualCWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,MSVCScriptExecutionWarning,potential,0.5,"cohesion, interfaces",
+WinSDKTests.py,WinSDKTests,potential,0.7,"cohesion, interfaces","test_verify, test_version_list_sdk_map, test_get_msvc_sdk_version_list, test_get_msvc_sdk_version_list_empty, test_reset"

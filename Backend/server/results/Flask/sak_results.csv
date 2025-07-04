@@ -1,0 +1,112 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+app.py,Flask,sak,1.0,"large_class, cohesion, interfaces","__init__, open_instance_resource"
+blueprints.py,Blueprint,potential,0.7,"cohesion, interfaces",__init__
+cli.py,NoAppException,potential,0.5,"cohesion, interfaces",
+cli.py,AppGroup,potential,0.7,"cohesion, interfaces",command
+cli.py,FlaskGroup,potential,0.7,"cohesion, interfaces",__init__
+config.py,ConfigAttribute,potential,0.5,cohesion,__init__
+config.py,Config,potential,0.7,"cohesion, interfaces",__init__
+debughelpers.py,UnexpectedUnicodeError,potential,0.5,"cohesion, interfaces",
+debughelpers.py,FormDataRoutingRedirect,potential,0.7,"cohesion, interfaces",__init__
+debughelpers.py,newcls,potential,0.5,"cohesion, interfaces",
+sessions.py,SecureCookieSession,potential,0.7,"cohesion, interfaces","__init__, get"
+sessions.py,NullSession,potential,0.5,"cohesion, interfaces",
+sessions.py,SessionInterface,potential,0.6,"large_class, cohesion",
+sessions.py,SecureCookieSessionInterface,potential,0.5,"cohesion, interfaces",
+templating.py,Environment,potential,0.7,"cohesion, interfaces",__init__
+wrappers.py,Request,potential,0.7,"cohesion, interfaces","endpoint, blueprint, blueprints"
+wrappers.py,Response,potential,0.5,"cohesion, interfaces",
+provider.py,JSONProvider,potential,0.5,cohesion,"__init__, dumps, dump, load, response"
+tag.py,TagBytes,potential,0.7,"cohesion, interfaces",check
+tag.py,TagMarkup,potential,0.7,"cohesion, interfaces",check
+tag.py,TagUUID,potential,0.7,"cohesion, interfaces",check
+tag.py,TagDateTime,potential,0.7,"cohesion, interfaces",check
+app.py,App,sak,1.0,"large_class, cohesion, interfaces","__init__, name, debug, debug, shell_context_processor, redirect"
+blueprints.py,Blueprint,potential,0.7,"large_class, interfaces","__init__, register"
+scaffold.py,Scaffold,sak,0.8,"large_class, cohesion","__init__, get, post, put, patch, route, endpoint, before_request, after_request, teardown_request, context_processor"
+test_appctx.py,CustomRequestGlobals,potential,0.5,cohesion,__init__
+test_async.py,AppError,potential,0.5,"cohesion, interfaces",
+test_async.py,BlueprintError,potential,0.5,"cohesion, interfaces",
+test_async.py,AsyncView,potential,0.5,"cohesion, interfaces",
+test_async.py,AsyncMethodView,potential,0.5,"cohesion, interfaces",
+test_basic.py,PrefixPathMiddleware,potential,0.5,cohesion,__init__
+test_basic.py,MyException,potential,0.5,"cohesion, interfaces",
+test_basic.py,ForbiddenSubclass,potential,0.5,"cohesion, interfaces",
+test_basic.py,E1,potential,0.5,"cohesion, interfaces",
+test_basic.py,E2,potential,0.5,"cohesion, interfaces",
+test_basic.py,E3,potential,0.5,"cohesion, interfaces",
+test_basic.py,View,potential,0.5,cohesion,"__init__, index"
+test_blueprints.py,MyDecoratorException,potential,0.5,"cohesion, interfaces",
+test_blueprints.py,MyFunctionException,potential,0.5,"cohesion, interfaces",
+test_blueprints.py,MyBlueprint,potential,0.5,"cohesion, interfaces",
+test_cli.py,TestRoutes,sak,0.8,"large_class, cohesion",app
+test_cli.py,Module,potential,0.5,cohesion,create_app
+test_cli.py,Module,potential,0.5,cohesion,create_app
+test_cli.py,Module,potential,0.5,cohesion,make_app
+test_cli.py,Module,potential,0.5,cohesion,create_app
+test_cli.py,Module,potential,0.5,cohesion,create_app
+test_cli.py,Module,potential,0.5,cohesion,create_app
+test_cli.py,Module,potential,0.5,cohesion,create_app
+test_config.py,Test,potential,0.5,"cohesion, interfaces",
+test_config.py,Config,potential,0.5,"cohesion, interfaces",
+test_config.py,Flask,potential,0.5,"cohesion, interfaces",
+test_converters.py,ListConverter,potential,0.5,"cohesion, interfaces",
+test_converters.py,ContextConverter,potential,0.5,"cohesion, interfaces",
+test_helpers.py,FakePath,potential,0.5,cohesion,__init__
+test_helpers.py,PyBytesIO,potential,0.5,cohesion,__init__
+test_helpers.py,MyAborter,potential,0.5,"cohesion, interfaces",
+test_helpers.py,MyFlask,potential,0.5,"cohesion, interfaces",
+test_helpers.py,My900Error,potential,0.5,"cohesion, interfaces",
+test_helpers.py,StaticFileApp,potential,0.5,"cohesion, interfaces",
+test_helpers.py,MyView,potential,0.7,"cohesion, interfaces","get, post"
+test_helpers.py,Wrapper,potential,0.5,cohesion,__init__
+test_json.py,FixedOffset,potential,0.7,"cohesion, interfaces","__init__, utcoffset, tzname, dst"
+test_json.py,X,potential,0.5,cohesion,__init__
+test_json_tag.py,TagDict,potential,0.5,"cohesion, interfaces",
+test_json_tag.py,Foo,potential,0.5,cohesion,__init__
+test_json_tag.py,Tag1,potential,0.5,"cohesion, interfaces",
+test_json_tag.py,Tag2,potential,0.5,"cohesion, interfaces",
+test_regression.py,Foo,potential,0.5,"cohesion, interfaces",
+test_reqctx.py,SessionError,potential,0.5,"cohesion, interfaces",
+test_reqctx.py,FailingSessionInterface,potential,0.5,"cohesion, interfaces",
+test_reqctx.py,CustomFlask,potential,0.5,"cohesion, interfaces",
+test_reqctx.py,PathAwareSessionInterface,potential,0.5,"cohesion, interfaces",
+test_reqctx.py,CustomFlask,potential,0.5,"cohesion, interfaces",
+test_session_interface.py,MySessionInterface,potential,0.5,"cohesion, interfaces",
+test_subclassing.py,SuppressedFlask,potential,0.5,"cohesion, interfaces",
+test_templating.py,MyFlask,potential,0.5,"cohesion, interfaces",
+test_templating.py,_TestHandler,potential,0.7,"cohesion, interfaces",handle
+test_templating.py,CustomEnvironment,potential,0.5,"cohesion, interfaces",
+test_templating.py,CustomFlask,potential,0.5,"cohesion, interfaces",
+test_testing.py,SubRunner,potential,0.5,"cohesion, interfaces",
+test_user_error_handler.py,TestGenericHandlers,potential,0.5,cohesion,app
+test_user_error_handler.py,CustomException,potential,0.5,"cohesion, interfaces",
+test_user_error_handler.py,ParentException,potential,0.5,"cohesion, interfaces",
+test_user_error_handler.py,ChildExceptionUnregistered,potential,0.5,"cohesion, interfaces",
+test_user_error_handler.py,ChildExceptionRegistered,potential,0.5,"cohesion, interfaces",
+test_user_error_handler.py,ForbiddenSubclassRegistered,potential,0.5,"cohesion, interfaces",
+test_user_error_handler.py,ForbiddenSubclassUnregistered,potential,0.5,"cohesion, interfaces",
+test_user_error_handler.py,Custom,potential,0.5,"cohesion, interfaces",
+test_views.py,Index,potential,0.5,"cohesion, interfaces",
+test_views.py,Index,potential,0.7,"cohesion, interfaces","get, post"
+test_views.py,Index,potential,0.7,"cohesion, interfaces","get, post"
+test_views.py,Other,potential,0.7,"cohesion, interfaces","get, post"
+test_views.py,Index,potential,0.7,"cohesion, interfaces","get, post"
+test_views.py,BetterIndex,potential,0.5,"cohesion, interfaces",
+test_views.py,Index,potential,0.5,"cohesion, interfaces",
+test_views.py,Index1,potential,0.5,"cohesion, interfaces",
+test_views.py,Index2,potential,0.5,"cohesion, interfaces",
+test_views.py,Index3,potential,0.5,"cohesion, interfaces",
+test_views.py,Index,potential,0.7,"cohesion, interfaces",get
+test_views.py,Index,potential,0.7,"cohesion, interfaces","get, head"
+test_views.py,Index,potential,0.5,"cohesion, interfaces",
+test_views.py,BaseView,potential,0.5,"cohesion, interfaces",
+test_views.py,ChildView,potential,0.7,"cohesion, interfaces","get, propfind"
+test_views.py,GetView,potential,0.7,"cohesion, interfaces",get
+test_views.py,DeleteView,potential,0.5,"cohesion, interfaces",
+test_views.py,GetDeleteView,potential,0.5,"cohesion, interfaces",
+test_views.py,GetView,potential,0.7,"cohesion, interfaces",get
+test_views.py,OtherView,potential,0.7,"cohesion, interfaces",post
+test_views.py,View,potential,0.5,"cohesion, interfaces",
+test_views.py,CountInit,potential,0.7,"cohesion, interfaces",__init__
+typing_route.py,StatusJSON,potential,0.5,"cohesion, interfaces",

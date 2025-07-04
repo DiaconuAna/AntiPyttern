@@ -1,0 +1,8 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+PlatformTests.py,Environment,potential,0.5,"cohesion, interfaces",
+PlatformTests.py,PlatformTestCase,potential,0.7,"cohesion, interfaces","test_Platform, test_win32_no_arch_shell_variables"
+PlatformTests.py,PlatformEscapeTestCase,potential,0.7,"cohesion, interfaces",test_posix_escape
+PlatformTests.py,Node,potential,0.5,cohesion,__init__
+virtualenvTests.py,Environment,potential,0.5,"cohesion, interfaces",
+win32.py,ArchDefinition,potential,0.5,cohesion,__init__
+__init__.py,PlatformSpec,potential,0.5,cohesion,__init__

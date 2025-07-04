@@ -1,0 +1,57 @@
+<h2 class="text-xl font-bold mt-6 mb-2">Spaghetti Code Results</h2>
+
+<ng-container *ngFor="let file of spaghettiResults">
+  <div
+    *ngIf="file.classification === 'spaghetti' || file.classification === 'potential'"
+    class="mb-6 border border-gray-300 rounded p-4 shadow-sm"
+  >
+    <div class="flex justify-between items-center">
+      <h3 class="text-lg font-medium text-blue-800">File: {{ file.file }}</h3>
+      <button class="text-sm text-blue-600 hover:underline" (click)="toggleFile(file.file)">
+        {{ isExpanded(file.file) ? 'Hide' : 'Show' }} Details
+      </button>
+    </div>
+
+    <div *ngIf="isExpanded(file.file)">
+      <p>
+        Classification:
+        <span
+          [ngClass]="{
+            'text-red-600': file.classification === 'spaghetti',
+            'text-yellow-600': file.classification === 'potential'
+          }"
+        >
+          {{
+            file.classification === 'spaghetti'
+              ? 'Spaghetti Code'
+              : file.classification === 'potential'
+                ? 'Code with potential to become Spaghetti Code'
+                : file.classification
+          }}
+        </span>
+      </p>
+
+
+      <p>Score: {{ file.score }} / 1.00 </p>
+
+      <div *ngIf="file.spaghetti_smells">
+        <h5 class="font-medium mt-2">Detected Smells:</h5>
+        <ul class="list-disc list-inside">
+          <li *ngIf="file.spaghetti_smells.dead_code">
+            <span class="text-red-600">Dead Code</span>
+          </li>
+          <li *ngIf="file.spaghetti_smells.global_vars">
+            <span class="text-red-600">Global Variables</span>
+          </li>
+          <li *ngIf="file.spaghetti_smells.long_methods_no_params">
+            <span class="text-red-600">Multiple Interfaces</span>
+          </li>
+          <li *ngIf="file.spaghetti_smells.switch_stmt">
+            <span class="text-red-600">Switch Statement</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</ng-container>

@@ -1,0 +1,4 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+config.py,DeprecatedOption,potential,0.5,"cohesion, interfaces",
+config.py,RegisteredOption,potential,0.5,"cohesion, interfaces",
+config.py,OptionError,potential,0.5,"cohesion, interfaces",

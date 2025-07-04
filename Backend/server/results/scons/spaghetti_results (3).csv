@@ -1,0 +1,177 @@
+File,Classification,Score,Smells
+386asm.py,clean,0.0,
+aixc++.py,clean,0.0,
+aixcc.py,clean,0.0,
+aixcxx.py,clean,0.0,
+aixf77.py,clean,0.0,
+aixlink.py,clean,0.15,dead_code
+applelink.py,clean,0.0,
+ar.py,clean,0.0,
+as.py,clean,0.0,
+asm.py,clean,0.0,
+bcc32.py,clean,0.0,
+c++.py,clean,0.0,
+cc.py,clean,0.0,
+clang.py,clean,0.0,
+clangxx.py,clean,0.0,
+compilation_db.py,clean,0.15,dead_code
+cvf.py,clean,0.0,
+cxx.py,clean,0.0,
+cyglink.py,potential,0.4,"switch_stmt, dead_code"
+DCommon.py,clean,0.15,dead_code
+default.py,clean,0.0,
+dmd.py,clean,0.0,
+dvi.py,clean,0.3,global_vars
+dvipdf.py,clean,0.3,global_vars
+dvips.py,clean,0.3,global_vars
+f03.py,clean,0.0,
+f08.py,clean,0.0,
+f77.py,clean,0.0,
+f90.py,clean,0.0,
+f95.py,clean,0.0,
+filesystem.py,clean,0.3,global_vars
+fortran.py,clean,0.0,
+FortranCommon.py,clean,0.0,
+FortranCommonTests.py,clean,0.15,dead_code
+g++.py,clean,0.0,
+g77.py,clean,0.0,
+gas.py,clean,0.0,
+gcc.py,clean,0.0,
+gdc.py,clean,0.0,
+GettextCommon.py,potential,0.44999999999999996,"global_vars, dead_code"
+gettext_tool.py,clean,0.0,
+gfortran.py,clean,0.0,
+gnulink.py,clean,0.0,
+gs.py,clean,0.3,global_vars
+gxx.py,clean,0.0,
+hpc++.py,clean,0.0,
+hpcc.py,clean,0.0,
+hpcxx.py,clean,0.0,
+hplink.py,clean,0.0,
+icc.py,clean,0.0,
+icl.py,clean,0.0,
+ifl.py,clean,0.0,
+ifort.py,clean,0.0,
+ilink.py,clean,0.0,
+ilink32.py,clean,0.0,
+install.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+intelc.py,potential,0.55,"long_methods_no_params, switch_stmt"
+ipkg.py,clean,0.0,
+jar.py,potential,0.4,"switch_stmt, dead_code"
+javac.py,potential,0.4,"switch_stmt, dead_code"
+JavaCommon.py,clean,0.25,switch_stmt
+JavaCommonTests.py,potential,0.4,"switch_stmt, dead_code"
+javacTests.py,clean,0.15,dead_code
+javah.py,clean,0.25,switch_stmt
+latex.py,clean,0.0,
+ldc.py,clean,0.0,
+lex.py,clean,0.0,
+link.py,clean,0.0,
+linkloc.py,clean,0.0,
+m4.py,clean,0.0,
+masm.py,clean,0.0,
+midl.py,clean,0.0,
+mingw.py,clean,0.3,global_vars
+msgfmt.py,clean,0.0,
+msginit.py,clean,0.0,
+msgmerge.py,clean,0.0,
+mslib.py,clean,0.0,
+mslink.py,clean,0.25,switch_stmt
+mssdk.py,clean,0.0,
+msvc.py,clean,0.15,dead_code
+msvs.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+msvsTests.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+mwcc.py,clean,0.0,
+mwld.py,clean,0.0,
+nasm.py,clean,0.0,
+pdf.py,clean,0.3,global_vars
+pdflatex.py,clean,0.3,global_vars
+pdftex.py,clean,0.3,global_vars
+PharLapCommon.py,clean,0.0,
+python.py,clean,0.0,
+qt.py,clean,0.0,
+qt3.py,clean,0.25,switch_stmt
+rmic.py,clean,0.25,switch_stmt
+rpcgen.py,clean,0.0,
+rpm.py,clean,0.0,
+rpmutils.py,potential,0.4,"switch_stmt, dead_code"
+sgiar.py,clean,0.0,
+sgic++.py,clean,0.0,
+sgicc.py,clean,0.0,
+sgicxx.py,clean,0.0,
+sgilink.py,clean,0.0,
+sunar.py,clean,0.0,
+sunc++.py,clean,0.0,
+suncc.py,clean,0.0,
+suncxx.py,clean,0.25,switch_stmt
+sunf77.py,clean,0.0,
+sunf90.py,clean,0.0,
+sunf95.py,clean,0.0,
+sunlink.py,clean,0.0,
+swig.py,potential,0.4,"switch_stmt, dead_code"
+tar.py,clean,0.0,
+tex.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+textfile.py,clean,0.25,switch_stmt
+tlib.py,clean,0.0,
+ToolTests.py,clean,0.15,dead_code
+wix.py,clean,0.25,switch_stmt
+wixTests.py,clean,0.15,dead_code
+xgettext.py,clean,0.25,switch_stmt
+yacc.py,potential,0.4,"switch_stmt, dead_code"
+zip.py,clean,0.15,dead_code
+__init__.py,potential,0.4,"switch_stmt, dead_code"
+ipk.py,potential,0.4,"switch_stmt, dead_code"
+msi.py,clean,0.15,dead_code
+rpm.py,potential,0.4,"switch_stmt, dead_code"
+src_tarbz2.py,clean,0.0,
+src_targz.py,clean,0.0,
+src_tarxz.py,clean,0.0,
+src_zip.py,clean,0.0,
+tarbz2.py,clean,0.0,
+targz.py,clean,0.0,
+tarxz.py,clean,0.0,
+zip.py,clean,0.0,
+__init__.py,potential,0.55,"global_vars, switch_stmt"
+Globals.py,clean,0.15,dead_code
+Methods.py,potential,0.4,"switch_stmt, dead_code"
+NinjaState.py,clean,0.25,switch_stmt
+ninja_daemon_build.py,clean,0.0,
+ninja_run_daemon.py,clean,0.15,dead_code
+ninja_scons_daemon.py,spaghetti,1.0,"long_methods_no_params, global_vars, switch_stmt, dead_code"
+Overrides.py,clean,0.15,dead_code
+Rules.py,clean,0.0,
+Utils.py,clean,0.15,dead_code
+UtilsTests.py,clean,0.15,dead_code
+__init__.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+arch.py,clean,0.0,
+common.py,potential,0.44999999999999996,"global_vars, dead_code"
+netframework.py,clean,0.0,
+sdk.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+vc.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+vcTests.py,potential,0.4,"switch_stmt, dead_code"
+vs.py,potential,0.44999999999999996,"global_vars, dead_code"
+__init__.py,clean,0.0,
+Config.py,clean,0.15,dead_code
+ConfigTests.py,clean,0.15,dead_code
+Dispatcher.py,clean,0.0,
+DispatcherTests.py,clean,0.15,dead_code
+Exceptions.py,clean,0.0,
+Kind.py,potential,0.55,"global_vars, switch_stmt"
+Policy.py,potential,0.44999999999999996,"global_vars, dead_code"
+PolicyTests.py,clean,0.15,dead_code
+Registry.py,clean,0.0,
+RegistryTests.py,clean,0.15,dead_code
+ScriptArguments.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+ScriptArgumentsTests.py,potential,0.4,"switch_stmt, dead_code"
+SetupEnvDefault.py,clean,0.25,switch_stmt
+Util.py,clean,0.0,
+UtilTests.py,clean,0.15,dead_code
+Warnings.py,clean,0.0,
+WinSDK.py,potential,0.55,"global_vars, switch_stmt"
+WinSDKTests.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+linkCommmonTests.py,clean,0.15,dead_code
+LoadableModule.py,clean,0.0,
+SharedLibrary.py,clean,0.25,switch_stmt
+__init__.py,potential,0.44999999999999996,"global_vars, dead_code"
+__init__.py,clean,0.0,

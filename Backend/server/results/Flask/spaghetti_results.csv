@@ -1,0 +1,84 @@
+File,Classification,Score,Smells
+conf.py,clean,0.15,dead_code
+make_celery.py,clean,0.0,
+tasks.py,clean,0.0,
+views.py,clean,0.0,
+__init__.py,clean,0.0,
+views.py,clean,0.0,
+__init__.py,clean,0.0,
+conftest.py,clean,0.15,dead_code
+test_js_example.py,clean,0.15,dead_code
+auth.py,clean,0.15,dead_code
+blog.py,clean,0.15,dead_code
+db.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+conftest.py,clean,0.0,
+test_auth.py,clean,0.0,
+test_blog.py,clean,0.0,
+test_db.py,clean,0.0,
+test_factory.py,clean,0.0,
+app.py,potential,0.4,"switch_stmt, dead_code"
+blueprints.py,clean,0.0,
+cli.py,potential,0.4,"switch_stmt, dead_code"
+config.py,clean,0.15,dead_code
+ctx.py,clean,0.15,dead_code
+debughelpers.py,potential,0.4,"switch_stmt, dead_code"
+globals.py,clean,0.0,
+helpers.py,clean,0.25,switch_stmt
+logging.py,clean,0.0,
+sessions.py,clean,0.15,dead_code
+signals.py,clean,0.0,
+templating.py,clean,0.0,
+testing.py,potential,0.44999999999999996,"global_vars, dead_code"
+typing.py,clean,0.15,dead_code
+views.py,clean,0.0,
+wrappers.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+__main__.py,clean,0.0,
+provider.py,clean,0.0,
+tag.py,clean,0.0,
+__init__.py,clean,0.0,
+app.py,potential,0.4,"switch_stmt, dead_code"
+blueprints.py,clean,0.25,switch_stmt
+scaffold.py,potential,0.4,"switch_stmt, dead_code"
+conftest.py,clean,0.15,dead_code
+test_appctx.py,potential,0.4,"switch_stmt, dead_code"
+test_async.py,clean,0.15,dead_code
+test_basic.py,potential,0.4,"switch_stmt, dead_code"
+test_blueprints.py,potential,0.4,"switch_stmt, dead_code"
+test_cli.py,potential,0.4,"switch_stmt, dead_code"
+test_config.py,potential,0.4,"switch_stmt, dead_code"
+test_converters.py,clean,0.0,
+test_helpers.py,clean,0.15,dead_code
+test_instance_config.py,clean,0.15,dead_code
+test_json.py,clean,0.15,dead_code
+test_json_tag.py,clean,0.0,
+test_logging.py,clean,0.15,dead_code
+test_regression.py,clean,0.15,dead_code
+test_reqctx.py,clean,0.15,dead_code
+test_request.py,potential,0.4,"switch_stmt, dead_code"
+test_session_interface.py,clean,0.0,
+test_signals.py,clean,0.15,dead_code
+test_subclassing.py,clean,0.0,
+test_templating.py,potential,0.4,"switch_stmt, dead_code"
+test_testing.py,clean,0.15,dead_code
+test_user_error_handler.py,potential,0.44999999999999996,"long_methods_no_params, dead_code"
+test_views.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+__init__.py,clean,0.0,
+__init__.py,clean,0.0,
+__init__.py,clean,0.15,dead_code
+app.py,clean,0.0,
+factory.py,clean,0.15,dead_code
+importerrorapp.py,clean,0.15,dead_code
+multiapp.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+__init__.py,clean,0.0,
+flask.py,clean,0.0,
+__init__.py,clean,0.0,
+hello.py,clean,0.0,
+wsgi.py,clean,0.0,
+__init__.py,clean,0.0,
+typing_app_decorators.py,clean,0.15,dead_code
+typing_error_handler.py,clean,0.15,dead_code
+typing_route.py,clean,0.15,dead_code

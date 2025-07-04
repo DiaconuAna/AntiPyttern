@@ -1,0 +1,178 @@
+File,Classification,Score,Smells
+constants.py,clean,0.15,dead_code
+exceptions.py,clean,0.0,
+graph.py,clean,0.0,
+interfaces.py,clean,0.0,
+typing.py,clean,0.15,dead_code
+__init__.py,clean,0.15,dead_code
+__main__.py,clean,0.0,
+__pkginfo__.py,clean,0.15,dead_code
+ast_walker.py,clean,0.25,switch_stmt
+docs.py,clean,0.0,
+file_state.py,clean,0.25,switch_stmt
+linterstats.py,clean,0.15,dead_code
+pragma_parser.py,clean,0.25,switch_stmt
+utils.py,potential,0.4,"switch_stmt, dead_code"
+__init__.py,clean,0.0,
+checker_test_case.py,potential,0.4,"switch_stmt, dead_code"
+configuration_test.py,clean,0.15,dead_code
+constants.py,clean,0.0,
+decorator.py,clean,0.0,
+get_test_info.py,clean,0.25,switch_stmt
+global_test_linter.py,clean,0.0,
+lint_module_test.py,potential,0.4,"switch_stmt, dead_code"
+output_line.py,clean,0.0,
+pyreverse.py,clean,0.15,dead_code
+reporter_for_tests.py,clean,0.15,dead_code
+tokenize_str.py,clean,0.0,
+unittest_linter.py,potential,0.4,"switch_stmt, dead_code"
+utils.py,clean,0.15,dead_code
+_run.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+package_to_lint.py,clean,0.0,
+primer.py,clean,0.0,
+primer_command.py,clean,0.0,
+primer_compare_command.py,clean,0.25,switch_stmt
+primer_prepare_command.py,clean,0.25,switch_stmt
+primer_run_command.py,clean,0.0,
+__init__.py,clean,0.0,
+find_functional_tests.py,clean,0.25,switch_stmt
+lint_module_output_update.py,clean,0.15,dead_code
+test_file.py,clean,0.0,
+__init__.py,clean,0.0,
+base_reporter.py,clean,0.0,
+collecting_reporter.py,clean,0.0,
+json_reporter.py,clean,0.15,dead_code
+multi_reporter.py,clean,0.0,
+progress_reporters.py,clean,0.0,
+reports_handler_mix_in.py,clean,0.0,
+text.py,clean,0.0,
+__init__.py,clean,0.0,
+base_writer.py,clean,0.0,
+nodes.py,clean,0.15,dead_code
+text_writer.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+diadefslib.py,clean,0.15,dead_code
+diagrams.py,potential,0.4,"switch_stmt, dead_code"
+dot_printer.py,clean,0.25,switch_stmt
+inspector.py,potential,0.4,"switch_stmt, dead_code"
+main.py,clean,0.0,
+mermaidjs_printer.py,clean,0.25,switch_stmt
+plantuml_printer.py,clean,0.25,switch_stmt
+printer.py,clean,0.15,dead_code
+printer_factory.py,clean,0.0,
+utils.py,clean,0.25,switch_stmt
+writer.py,clean,0.25,switch_stmt
+__init__.py,clean,0.0,
+message.py,clean,0.0,
+message_definition.py,clean,0.25,switch_stmt
+message_definition_store.py,clean,0.0,
+message_id_store.py,potential,0.4,"switch_stmt, dead_code"
+_deleted_message_ids.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+base_options.py,clean,0.15,dead_code
+caching.py,clean,0.0,
+expand_modules.py,clean,0.25,switch_stmt
+message_state_handler.py,clean,0.25,switch_stmt
+parallel.py,clean,0.0,
+pylinter.py,potential,0.4,"switch_stmt, dead_code"
+report_functions.py,clean,0.25,switch_stmt
+run.py,clean,0.25,switch_stmt
+utils.py,clean,0.0,
+__init__.py,clean,0.0,
+bad_builtin.py,clean,0.15,dead_code
+broad_try_clause.py,clean,0.0,
+check_elif.py,clean,0.15,dead_code
+code_style.py,potential,0.4,"switch_stmt, dead_code"
+comparison_placement.py,clean,0.15,dead_code
+confusing_elif.py,clean,0.15,dead_code
+consider_refactoring_into_while_condition.py,clean,0.25,switch_stmt
+consider_ternary_expression.py,potential,0.4,"switch_stmt, dead_code"
+dict_init_mutate.py,potential,0.4,"switch_stmt, dead_code"
+docparams.py,potential,0.4,"switch_stmt, dead_code"
+docstyle.py,potential,0.4,"switch_stmt, dead_code"
+dunder.py,clean,0.0,
+empty_comment.py,clean,0.0,
+eq_without_hash.py,clean,0.0,
+for_any_all.py,potential,0.4,"switch_stmt, dead_code"
+magic_value.py,clean,0.15,dead_code
+mccabe.py,clean,0.15,dead_code
+no_self_use.py,potential,0.4,"switch_stmt, dead_code"
+overlapping_exceptions.py,clean,0.25,switch_stmt
+private_import.py,potential,0.4,"switch_stmt, dead_code"
+redefined_loop_name.py,clean,0.15,dead_code
+redefined_variable_type.py,potential,0.4,"switch_stmt, dead_code"
+set_membership.py,clean,0.15,dead_code
+typing.py,potential,0.4,"switch_stmt, dead_code"
+while_used.py,clean,0.0,
+_check_docs_utils.py,clean,0.25,switch_stmt
+__init__.py,clean,0.0,
+argument.py,clean,0.0,
+arguments_manager.py,clean,0.25,switch_stmt
+arguments_provider.py,clean,0.0,
+callback_actions.py,clean,0.0,
+config_file_parser.py,clean,0.0,
+config_initialization.py,clean,0.25,switch_stmt
+deprecation_actions.py,clean,0.0,
+exceptions.py,clean,0.0,
+find_default_config_files.py,clean,0.0,
+help_formatter.py,clean,0.0,
+utils.py,clean,0.25,switch_stmt
+_breaking_changes.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+generate_command.py,clean,0.0,
+help_message.py,clean,0.0,
+main.py,clean,0.0,
+setup.py,clean,0.0,
+utils.py,clean,0.0,
+__init__.py,clean,0.0,
+async_checker.py,potential,0.4,"switch_stmt, dead_code"
+bad_chained_comparison.py,clean,0.15,dead_code
+base_checker.py,clean,0.25,switch_stmt
+clear_lru_cache.py,clean,0.0,
+dataclass_checker.py,potential,0.4,"switch_stmt, dead_code"
+deprecated.py,potential,0.4,"switch_stmt, dead_code"
+design_analysis.py,potential,0.4,"switch_stmt, dead_code"
+dunder_methods.py,clean,0.15,dead_code
+ellipsis_checker.py,clean,0.15,dead_code
+exceptions.py,potential,0.4,"switch_stmt, dead_code"
+format.py,clean,0.25,switch_stmt
+imports.py,potential,0.4,"switch_stmt, dead_code"
+lambda_expressions.py,potential,0.4,"switch_stmt, dead_code"
+logging.py,potential,0.4,"switch_stmt, dead_code"
+method_args.py,potential,0.4,"switch_stmt, dead_code"
+misc.py,clean,0.25,switch_stmt
+modified_iterating_checker.py,potential,0.4,"switch_stmt, dead_code"
+nested_min_max.py,potential,0.4,"switch_stmt, dead_code"
+newstyle.py,potential,0.4,"switch_stmt, dead_code"
+non_ascii_names.py,clean,0.15,dead_code
+raw_metrics.py,clean,0.25,switch_stmt
+spelling.py,potential,0.4,"switch_stmt, dead_code"
+stdlib.py,potential,0.4,"switch_stmt, dead_code"
+strings.py,potential,0.4,"switch_stmt, dead_code"
+symilar.py,clean,0.25,switch_stmt
+threading_checker.py,clean,0.15,dead_code
+typecheck.py,potential,0.4,"switch_stmt, dead_code"
+unicode.py,clean,0.0,
+unsupported_version.py,clean,0.15,dead_code
+utils.py,potential,0.4,"switch_stmt, dead_code"
+variables.py,potential,0.4,"switch_stmt, dead_code"
+__init__.py,clean,0.0,
+implicit_booleaness_checker.py,potential,0.4,"switch_stmt, dead_code"
+not_checker.py,potential,0.4,"switch_stmt, dead_code"
+recommendation_checker.py,potential,0.4,"switch_stmt, dead_code"
+refactoring_checker.py,potential,0.4,"switch_stmt, dead_code"
+__init__.py,clean,0.0,
+class_checker.py,potential,0.4,"switch_stmt, dead_code"
+special_methods_checker.py,potential,0.4,"switch_stmt, dead_code"
+__init__.py,clean,0.0,
+basic_checker.py,potential,0.4,"switch_stmt, dead_code"
+basic_error_checker.py,potential,0.4,"switch_stmt, dead_code"
+comparison_checker.py,clean,0.15,dead_code
+docstring_checker.py,potential,0.4,"switch_stmt, dead_code"
+function_checker.py,potential,0.4,"switch_stmt, dead_code"
+pass_checker.py,clean,0.15,dead_code
+__init__.py,clean,0.0,
+checker.py,potential,0.4,"switch_stmt, dead_code"
+naming_style.py,clean,0.0,
+__init__.py,clean,0.0,

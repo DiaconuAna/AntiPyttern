@@ -1,0 +1,24 @@
+File,Classification,Score,Smells
+C.py,potential,0.4,"switch_stmt, dead_code"
+CTests.py,potential,0.44999999999999996,"global_vars, dead_code"
+D.py,clean,0.0,
+Dir.py,clean,0.0,
+DirTests.py,clean,0.15,dead_code
+DTests.py,potential,0.44999999999999996,"global_vars, dead_code"
+Fortran.py,clean,0.25,switch_stmt
+FortranTests.py,clean,0.15,dead_code
+IDL.py,clean,0.0,
+IDLTests.py,potential,0.44999999999999996,"global_vars, dead_code"
+Java.py,clean,0.15,dead_code
+JavaTests.py,potential,0.44999999999999996,"global_vars, dead_code"
+LaTeX.py,potential,0.4,"switch_stmt, dead_code"
+LaTeXTests.py,potential,0.44999999999999996,"global_vars, dead_code"
+Prog.py,clean,0.25,switch_stmt
+ProgTests.py,clean,0.15,dead_code
+Python.py,clean,0.25,switch_stmt
+PythonTests.py,potential,0.44999999999999996,"global_vars, dead_code"
+RC.py,clean,0.0,
+RCTests.py,potential,0.44999999999999996,"global_vars, dead_code"
+ScannerTests.py,clean,0.15,dead_code
+SWIG.py,clean,0.15,dead_code
+__init__.py,clean,0.0,

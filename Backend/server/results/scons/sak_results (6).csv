@@ -1,0 +1,267 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+Action.py,ActionBase,sak,1.0,"large_class, cohesion, interfaces","__call__, genstring, get_implicit_deps, get_contents, presub_lines"
+Action.py,FunctionAction,potential,0.7,"cohesion, interfaces","__init__, strfunction, __str__, execute, get_implicit_deps"
+Action.py,ActionFactory,potential,0.5,cohesion,"__init__, __call__"
+Action.py,f,potential,0.5,cohesion,"read, readline"
+ActionTests.py,GlobalActFunc,potential,0.5,cohesion,__call__
+ActionTests.py,CmdStringHolder,potential,0.5,cohesion,"__init__, escape"
+ActionTests.py,Environment,potential,0.5,cohesion,"__init__, subst, subst_list, __getitem__, __setitem__, get, items, Dictionary, Clone, sig_dict"
+ActionTests.py,DummyNode,potential,0.5,cohesion,"__init__, __str__"
+ActionTests.py,ActionTestCase,potential,0.7,"cohesion, interfaces","test_FunctionAction, test_CommandAction, test_ListAction, test_CommandGeneratorAction, test_LazyCmdGeneratorAction, test_no_action, test_reentrance"
+ActionTests.py,_ActionActionTestCase,potential,0.7,"cohesion, interfaces","test__init__, test_dup_keywords, test___cmp__, test_print_cmd_lines, test___call__, test_presub_lines, test_add"
+ActionTests.py,CommandActionTestCase,sak,1.0,"large_class, cohesion, interfaces","test___init__, test___str__, test_genstring, test_strfunction, test_execute, test_set_handler, test_get_contents, test_get_implicit_deps"
+ActionTests.py,CommandGeneratorActionTestCase,potential,0.7,"cohesion, interfaces","factory, test___init__, test___str__, test_genstring, test_execute, test_get_contents, test_get_contents_of_function_action"
+ActionTests.py,FunctionActionTestCase,potential,0.7,"cohesion, interfaces","test___init__, test___str__, test_execute, test_get_contents, test_strfunction"
+ActionTests.py,ListActionTestCase,potential,0.7,"cohesion, interfaces","test___init__, test___str__, test_genstring, test_execute, test_get_contents"
+ActionTests.py,LazyActionTestCase,potential,0.7,"cohesion, interfaces","test___init__, test_genstring, test_execute, test_get_contents, test_get_contents_of_function_action"
+ActionTests.py,ActionCallerTestCase,potential,0.7,"cohesion, interfaces","test___init__, test_get_contents, test___call__, test_strfunction"
+ActionTests.py,ActionFactoryTestCase,potential,0.7,"cohesion, interfaces","test___init__, test___call__"
+ActionTests.py,ActionCompareTestCase,potential,0.7,"cohesion, interfaces","test_1_solo_name, test_2_multi_name, test_3_dict_names"
+ActionTests.py,TestClass,potential,0.5,cohesion,"__init__, method"
+ActionTests.py,ObjectContentsTestCase,potential,0.7,"cohesion, interfaces","test_function_contents, test_object_contents, test_code_contents, test_uncaught_exception_bubbles, test_scons_subproc_run"
+ActionTests.py,actclass1,potential,0.5,cohesion,"__init__, __call__"
+ActionTests.py,actclass2,potential,0.5,cohesion,"__init__, __call__"
+ActionTests.py,actclass3,potential,0.5,cohesion,"__init__, __call__, strfunction"
+ActionTests.py,actclass4,potential,0.5,cohesion,"__init__, __call__"
+ActionTests.py,Obj,potential,0.5,cohesion,"__init__, __str__"
+ActionTests.py,Test,potential,0.5,cohesion,__init__
+ActionTests.py,LiteralStr,potential,0.5,cohesion,"__init__, __str__, escape"
+ActionTests.py,SpecialEnvironment,potential,0.7,"cohesion, interfaces",subst_target_source
+ActionTests.py,SpecialEnvironment,potential,0.7,"cohesion, interfaces",WhereIs
+ActionTests.py,DummyFile,potential,0.5,cohesion,__init__
+ActionTests.py,class1,potential,0.5,cohesion,__call__
+ActionTests.py,class1a,potential,0.5,cohesion,__init__
+ActionTests.py,class1b,potential,0.5,cohesion,__call__
+ActionTests.py,Foo,potential,0.5,cohesion,get_contents
+ActionTests.py,class2a,potential,0.5,cohesion,__call__
+ActionTests.py,class2b,potential,0.5,cohesion,__init__
+ActionTests.py,LocalActFunc,potential,0.5,cohesion,__call__
+ActionTests.py,fs,potential,0.5,cohesion,File
+Builder.py,DictCmdGenerator,potential,0.7,"cohesion, interfaces","__init__, __call__"
+Builder.py,CallableSelector,potential,0.7,"cohesion, interfaces",__call__
+Builder.py,DictEmitter,potential,0.7,"cohesion, interfaces",__call__
+Builder.py,ListEmitter,potential,0.7,"cohesion, interfaces",__call__
+Builder.py,OverrideWarner,potential,0.7,"cohesion, interfaces","__init__, warn"
+Builder.py,EmitterProxy,potential,0.5,cohesion,"__init__, __call__"
+Builder.py,BuilderBase,sak,0.8,"large_class, cohesion","__init__, __bool__, get_name, splitext, _adjustixes, _execute, __call__, adjust_suffix, set_suffix, add_src_builder"
+Builder.py,CompositeBuilder,potential,0.7,"cohesion, interfaces",__init__
+BuilderTests.py,Environment,sak,0.8,"large_class, cohesion","__init__, subst, subst_target_source, subst_list, arg2nodes, get_factory, get_scanner, Dictionary, autogenerate, __setitem__, __getitem__, keys, get, Override, _update, items, sig_dict"
+BuilderTests.py,MyNode_without_target_from_source,sak,0.8,"large_class, cohesion","__init__, __str__, add_source, scanner_key, generate_build_env, get_build_env"
+BuilderTests.py,MyNode,potential,0.5,"cohesion, interfaces",
+BuilderTests.py,BuilderTestCase,sak,1.0,"large_class, cohesion, interfaces","test__init__, test__bool__, test__call__, test_mistaken_variables, test_action, test_generator, test_cmp, test_target_factory, test_source_factory, test_splitext, test_adjust_suffix, test_prefix, test_set_suffix, test_src_suffix, test_srcsuffix_nonext, test_src_suffix_expansion, test_suffix, test__adjustixes, test_single_source, test_lists, test_src_builder, test_target_scanner, test_actual_scanner, test_src_scanner, test_Builder_API, test_Builder_Args, test_emitter, test_emitter_preserve_builder, test_emitter_suffix_map, test_emitter_function_list, test_emitter_TARGET_SOURCE, test_no_target, test_get_name"
+BuilderTests.py,MyBuilder,potential,0.7,"cohesion, interfaces",splitext
+BuilderTests.py,MyBuilder,potential,0.7,"cohesion, interfaces",adjust_suffix
+BuilderTests.py,TestScanner,potential,0.5,cohesion,"key, select, __str__"
+CacheDir.py,CacheDir,sak,0.8,"large_class, cohesion","__init__, get_cachedir_csig, cachepath, retrieve, push, push_if_forced"
+CacheDirTests.py,Action,potential,0.5,cohesion,"__call__, genstring, get_contents"
+CacheDirTests.py,Builder,potential,0.5,cohesion,__init__
+CacheDirTests.py,Environment,potential,0.5,cohesion,"__init__, Override"
+CacheDirTests.py,BaseTestCase,potential,0.7,"cohesion, interfaces",File
+CacheDirTests.py,CacheDirTestCase,potential,0.7,"cohesion, interfaces",test_cachepath
+CacheDirTests.py,CacheDirExistsTestCase,potential,0.7,"cohesion, interfaces",test_existing_cachedir
+CacheDirTests.py,ExceptionTestCase,potential,0.7,"cohesion, interfaces","test_throws_correct_on_OSError, test_throws_correct_when_failed_to_write_configfile, test_raise_environment_error_on_invalid_json"
+CacheDirTests.py,FileTestCase,sak,1.0,"large_class, cohesion, interfaces","push, test_CacheRetrieve, test_CacheRetrieveSilent, test_CachePush, test_warning, test_no_strfunction"
+CacheDirTests.py,Unserializable,potential,0.5,cohesion,"__init__, __getitem__, __setitem__"
+cpp.py,PreProcessor,potential,0.5,large_class,"__init__, __call__, do_ifdef, do_ifndef, do_if, do_else, do_endif, do_define, do_undef, do_import, do_include"
+cpp.py,DumbPreProcessor,potential,0.7,"cohesion, interfaces",__init__
+cppTests.py,cppTestCase,potential,0.7,"large_class, interfaces","test_basic, test_substitution, test_ifdef, test_if_boolean, test_if_defined, test_expression, test_undef, test_macro_function, test_token_pasting, test_no_space, test_nested_ifs, test_ifndef, test_if_defined_no_space, test_if_no_space"
+cppTests.py,PreProcessorTestCase,potential,0.5,"cohesion, interfaces",
+cppTests.py,DumbPreProcessorTestCase,potential,0.5,"cohesion, interfaces",
+cppTests.py,fileTestCase,potential,0.7,"cohesion, interfaces","write, test_basic, test_current_file"
+dblite.py,_Dblite,potential,0.5,cohesion,"__init__, __getitem__, __setitem__, __delitem__, keys, items, values"
+DefaultsTests.py,DefaultsTestCase,potential,0.7,"cohesion, interfaces","test_mkdir_func0, test_mkdir_func1, test_mkdir_func2, test__defines_no_target_or_source_arg, test_processDefines"
+Environment.py,BuilderWrapper,potential,0.7,"cohesion, interfaces","__call__, __str__"
+Environment.py,BuilderDict,potential,0.7,"cohesion, interfaces","__init__, __setitem__, __delitem__, update"
+Environment.py,SubstitutionEnvironment,sak,0.8,"large_class, cohesion","__init__, __delitem__, __getitem__, __setitem__, get, keys, values, items, setdefault, arg2nodes, gvars, lvars, subst, subst_kw, subst_list, subst_path, backtick, AddMethod, Override, ParseFlags, MergeFlags"
+Environment.py,Base,sak,1.0,"large_class, cohesion, interfaces","__init__, get_factory, get_scanner, _update, _update_onlynew, Append, AppendENVPath, AppendUnique, Clone, _changed_build, Detect, Dictionary, Dump, FindIxes, ParseConfig, ParseDepends, Platform, Prepend, PrependENVPath, PrependUnique, Replace, ReplaceIxes, SetDefault, Tool, WhereIs, Action, AddPreAction, AddPostAction, Alias, AlwaysBuild, Builder, CacheDir, Clean, Configure, Command, Depends, Dir, NoClean, NoCache, Entry, Environment, Execute, File, FindFile, Flatten, GetBuildPath, Ignore, Literal, Local, Precious, Pseudo, Repository, Requires, Scanner, SConsignFile, SideEffect, Split, Value, VariantDir, FindSourceFiles, FindInstalledFiles"
+Environment.py,OverrideEnvironment,sak,1.0,"large_class, cohesion, interfaces","__init__, __getitem__, __setitem__, __delitem__, get, Dictionary, items, keys, values, setdefault, _update, _update_onlynew, gvars, lvars, Replace"
+Environment.py,_NoSubstitutionProxy,potential,0.7,"cohesion, interfaces","__init__, subst, subst_kw, subst_list, subst_target_source"
+Environment.py,DumpEncoder,potential,0.7,"cohesion, interfaces",default
+EnvironmentTests.py,Builder,potential,0.7,"cohesion, interfaces","__init__, __call__, execute"
+EnvironmentTests.py,Scanner,potential,0.5,cohesion,"__init__, __call__, __str__"
+EnvironmentTests.py,DummyNode,potential,0.5,cohesion,"__init__, __str__"
+EnvironmentTests.py,SubstitutionTestCase,sak,1.0,"large_class, cohesion, interfaces","test___init__, test___cmp__, test___delitem__, test___getitem__, test___setitem__, test_get, test_contains, test_keys, test_values, test_items, test_setdefault, test_arg2nodes, test_arg2nodes_target_source, test_gvars, test_lvars, test_subst, test_subst_kw, test_subst_list, test_subst_path, test_subst_target_source, test_backtick, test_AddMethod, test_Override, test_ParseFlags, test_MergeFlags"
+EnvironmentTests.py,BaseTestCase,sak,1.0,"large_class, cohesion, interfaces","test___init__, test_variables, test_get, test_Builder_calls, test_BuilderWrapper_attributes, test_Builder_execs, test_Scanners, test_ENV, test_ReservedVariables, test_FutureReservedVariables, test_IllegalVariables, test_autogenerate, test_platform, test_Default_PLATFORM, test_tools, test_Default_TOOLS, test_null_tools, test_default_copy_cache, test__concat, test__concat_nested, test__stripixes, test_gvars, test__update, test_Append, test_AppendENVPath, test_AppendUnique, test_Clone, test_Detect, test_Dictionary, test_FindIxes, test_ParseConfig, test_ParseDepends, test_Platform, test_Prepend, test_PrependENVPath, test_PrependUnique, test_Replace, test_ReplaceIxes, test_SetDefault, test_Tool, test_WhereIs, test_Action, test_AddPostAction, test_AddPreAction, test_Alias, test_AlwaysBuild, test_VariantDir, test_Builder, test_CacheDir, test_Clean, test_Command, test_Configure, test_Depends, test_Dir, test_NoClean, test_Dump, test_Environment, test_Execute, test_Entry, test_File, test_FindFile, test_Flatten, test_GetBuildPath, test_Ignore, test_Literal, test_Local, test_Precious, test_Pseudo, test_Repository, test_Scanner, test_SConsignFile, test_SideEffect, test_Split, test_Value, test_Environment_global_variable, test_bad_keywords, test_parse_flags, test_clone_parse_flags"
+EnvironmentTests.py,OverrideEnvironmentTestCase,sak,1.0,"large_class, cohesion, interfaces","test___init__, test___setitem__, test___delitem__, test_get, test_contains, test_Dictionary, test_items, test_keys, test_values, test_setdefault, test_gvars, test_lvars, test_Replace, test_Override_Leakage, test_Override_Mutable_Leakage, test_FindIxes, test_ReplaceIxes, test_PseudoBuilderInherits, test_Dir, test_Entry, test_File, test_Split, test_parse_flags"
+EnvironmentTests.py,NoSubstitutionProxyTestCase,potential,0.7,"cohesion, interfaces","test___init__, test_attributes, test_subst, test_subst_kw, test_subst_list, test_subst_target_source"
+EnvironmentTests.py,X,potential,0.5,"cohesion, interfaces",
+EnvironmentTests.py,SConsNode,potential,0.5,"cohesion, interfaces",
+EnvironmentTests.py,MyProxy,potential,0.5,cohesion,"__init__, get"
+EnvironmentTests.py,MyNode,potential,0.5,cohesion,"__init__, __str__"
+EnvironmentTests.py,MyObj,potential,0.5,cohesion,get
+EnvironmentTests.py,StringableObj,potential,0.5,cohesion,"__init__, __str__"
+EnvironmentTests.py,FakeOptions,potential,0.5,cohesion,"__init__, keys, Update"
+EnvironmentTests.py,platform,potential,0.5,cohesion,"__str__, __call__"
+EnvironmentTests.py,platform,potential,0.5,cohesion,"__str__, __call__"
+EnvironmentTests.py,C,potential,0.5,cohesion,"__init__, __str__"
+EnvironmentTests.py,my_backtick,potential,0.5,cohesion,"__init__, __call__"
+EnvironmentTests.py,MyFS,potential,0.5,cohesion,"Dir, VariantDir"
+EnvironmentTests.py,MyFS,potential,0.5,cohesion,Dir
+EnvironmentTests.py,MyAction,potential,0.5,cohesion,"__init__, __call__"
+EnvironmentTests.py,MyFS,potential,0.5,cohesion,Entry
+EnvironmentTests.py,MyFS,potential,0.5,cohesion,File
+EnvironmentTests.py,MyFS,potential,0.5,cohesion,"__init__, Repository, Dir"
+EnvironmentTests.py,MyEnv,potential,0.5,"cohesion, interfaces",
+EnvironmentValues.py,EnvironmentValues,potential,0.5,cohesion,__init__
+EnvironmentValuesTest.py,MyTestCase,potential,0.7,"cohesion, interfaces",test_simple_environmentValues
+Errors.py,InternalError,potential,0.5,"cohesion, interfaces",
+Errors.py,UserError,potential,0.5,"cohesion, interfaces",
+Errors.py,StopError,potential,0.5,"cohesion, interfaces",
+Errors.py,SConsEnvironmentError,potential,0.5,"cohesion, interfaces",
+Errors.py,MSVCError,potential,0.5,"cohesion, interfaces",
+Errors.py,ExplicitExit,potential,0.7,"cohesion, interfaces",__init__
+ErrorsTests.py,PhonyException,potential,0.7,"cohesion, interfaces",__init__
+Executor.py,Batch,potential,0.5,cohesion,__init__
+Executor.py,TSList,potential,0.7,"cohesion, interfaces","__init__, __getitem__, __str__"
+Executor.py,TSObject,potential,0.5,cohesion,"__init__, __str__"
+Executor.py,Executor,sak,0.8,"large_class, cohesion","__init__, _get_source, _get_sources, get_build_env, get_build_scanner_path, get_kw, __call__, cleanup, add_sources, get_sources, prepare, add_pre_action, add_post_action, __str__, nullify, get_contents, get_timestamp, scan_targets, scan_sources, scan, get_unignored_sources, get_implicit_deps"
+Executor.py,NullEnvironment,potential,0.5,"cohesion, interfaces",
+Executor.py,Null,sak,0.8,"large_class, cohesion","__init__, get_build_env, get_build_scanner_path, cleanup, prepare, get_unignored_sources, __call__, get_contents, add_pre_action, add_post_action"
+ExecutorTests.py,MyBuilder,potential,0.5,cohesion,__init__
+ExecutorTests.py,MyNode,sak,0.8,"large_class, cohesion","__init__, __str__, build, get_implicit_deps, missing, calc_signature"
+ExecutorTests.py,MyScanner,potential,0.5,cohesion,"__init__, path, select"
+ExecutorTests.py,ExecutorTestCase,sak,1.0,"large_class, cohesion, interfaces","test__init__, test__action_list, test_get_build_env, test_get_build_scanner_path, test_get_kw, test__call__, test_cleanup, test_add_sources, test_get_sources, test_prepare, test_add_pre_action, test_add_post_action, test___str__, test_nullify, test_get_contents, test_get_timestamp, test_scan_targets, test_scan_sources, test_get_unignored_sources, test_changed_sources_for_alwaysBuild"
+ExecutorTests.py,LocalScanner,potential,0.5,cohesion,path
+MemoizeTests.py,FakeObject,potential,0.5,cohesion,"__init__, dict, value"
+MemoizeTests.py,Returner,potential,0.5,cohesion,"__init__, __call__"
+MemoizeTests.py,CountDictTestCase,potential,0.7,"cohesion, interfaces",test___call__
+MemoizeTests.py,CountValueTestCase,potential,0.7,"cohesion, interfaces",test___call__
+PathList.py,_PathList,potential,0.5,cohesion,"__init__, __getitem__, subst_path"
+PathList.py,PathListCache,potential,0.5,cohesion,"__init__, PathList"
+PathListTests.py,subst_pathTestCase,potential,0.7,"large_class, interfaces","test_node, test_object, test_object_get, test_string, test_subst, test_list_of_lists, test_subst_nested, test_another_env"
+PathListTests.py,PathListTestCase,potential,0.7,"cohesion, interfaces",test_PathList
+PathListTests.py,A,potential,0.5,cohesion,__str__
+PathListTests.py,B,potential,0.5,cohesion,get
+SConf.py,SConfWarning,potential,0.5,"cohesion, interfaces",
+SConf.py,SConfError,potential,0.7,"cohesion, interfaces",__init__
+SConf.py,ConfigureDryRunError,potential,0.7,"cohesion, interfaces",__init__
+SConf.py,ConfigureCacheError,potential,0.7,"cohesion, interfaces",__init__
+SConf.py,SConfBase,sak,0.8,"large_class, cohesion","__init__, Define, TryBuild, TryAction, TryCompile, TryLink, TryRun"
+SConf.py,CheckContext,potential,0.5,large_class,"__init__, TryBuild, TryAction, TryCompile, TryLink, TryRun, Display, Log"
+SConfTests.py,SConfTestCase,potential,0.7,"large_class, interfaces","test_TryBuild, test_TryCompile, test_TryLink, test_TryRun, test_TryAction, test_CheckCC, test_CheckSHCC, test_CheckCXX, test_CheckSHCXX, test_CheckHeader, test_CheckCHeader, test_CheckCXXHeader, test_CheckLib, test_CheckLibWithHeader, test_CheckFunc, test_CheckProg, test_Define, test_CheckTypeSize, test_CheckDeclaration, test_CheckMember, test_, test_CustomChecks"
+SConfTests.py,MyAction,potential,0.5,cohesion,get_contents
+SConfTests.py,MyNode,potential,0.5,cohesion,"__init__, add_pre_action, add_post_action, children, postprocess, prepare, build"
+SConsign.py,SConsignEntry,potential,0.5,cohesion,__init__
+SConsign.py,Dir,potential,0.7,"cohesion, interfaces",__init__
+SConsignTests.py,DummySConsignEntry,potential,0.5,cohesion,__init__
+SConsignTests.py,FS,potential,0.5,cohesion,__init__
+SConsignTests.py,DummyNode,potential,0.5,cohesion,__init__
+SConsignTests.py,BaseTestCase,potential,0.7,"cohesion, interfaces","test_Base, test_store_info"
+SConsignTests.py,SConsignDBTestCase,potential,0.7,"cohesion, interfaces",test_SConsignDB
+SConsignTests.py,SConsignDirFileTestCase,potential,0.7,"cohesion, interfaces",test_SConsignDirFile
+Subst.py,SpecialAttrWrapper,potential,0.5,cohesion,"__init__, __str__, escape"
+Subst.py,NullNodeList,potential,0.7,"cohesion, interfaces","__call__, __str__"
+Subst.py,ListSubber,potential,0.7,"large_class, interfaces",__init__
+SubstTests.py,scons_subst_TestCase,sak,1.0,"large_class, cohesion, interfaces","test_scons_subst, test_subst_env, test_subst_SUBST_modes, test_subst_target_source, test_subst_callable_expansion, test_subst_callable_with_default_expansion, test_subst_partial_callable_with_default_expansion, test_subst_partial_callable_with_no_default_expansion, test_subst_attribute_errors, test_subst_syntax_errors, test_subst_balance_errors, test_subst_type_errors, test_subst_raw_function, test_subst_overriding_gvars"
+SubstTests.py,CLVar_TestCase,potential,0.7,"cohesion, interfaces","test_CLVar, test_subst_overriding_lvars_overrides"
+SubstTests.py,scons_subst_list_TestCase,sak,1.0,"large_class, cohesion, interfaces","test_scons_subst_list, test_subst_env, test_subst_target_source, test_subst_escape, test_subst_SUBST_modes, test_subst_attribute_errors, test_subst_syntax_errors, test_subst_raw_function, test_subst_list_overriding_gvars, test_subst_list_overriding_gvars2, test_subst_list_overriding_lvars_overrides"
+SubstTests.py,quote_spaces_TestCase,potential,0.7,"cohesion, interfaces",test_quote_spaces
+SubstTests.py,LiteralTestCase,potential,0.7,"cohesion, interfaces","test_Literal, test_LiteralEqualsTest"
+SubstTests.py,SpecialAttrWrapperTestCase,potential,0.7,"cohesion, interfaces",test_SpecialAttrWrapper
+Warnings.py,SConsWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,WarningOnByDefault,potential,0.5,"cohesion, interfaces",
+Warnings.py,LinkWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,CacheVersionWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,CacheWriteErrorWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,CacheCleanupErrorWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,CorruptSConsignWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,DependencyWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,DevelopmentVersionWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,DuplicateEnvironmentWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,FortranCxxMixWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,FutureReservedVariableWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,MisleadingKeywordsWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,MissingSConscriptWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,NoObjectCountWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,NoParallelSupportWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,ReservedVariableWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,StackSizeWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,TargetNotBuiltWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,VisualCMissingWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,VisualVersionMismatch,potential,0.5,"cohesion, interfaces",
+Warnings.py,VisualStudioMissingWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,FutureDeprecatedWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,DeprecatedWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,MandatoryDeprecatedWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,PythonVersionWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,DeprecatedOptionsWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,DeprecatedDebugOptionsWarning,potential,0.5,"cohesion, interfaces",
+Warnings.py,ToolQtDeprecatedWarning,potential,0.5,"cohesion, interfaces",
+PackageVariableTests.py,PackageVariableTestCase,potential,0.7,"cohesion, interfaces","test_PackageVariable, test_converter, test_validator"
+PathVariableTests.py,PathVariableTestCase,sak,1.0,"large_class, cohesion, interfaces","test_PathVariable, test_PathExists, test_PathIsDir, test_PathIsDirCreate, test_PathIsDirCreate_bad_dir, test_PathIsFile, test_PathAccept, test_validator"
+PathVariableTests.py,ValidatorError,potential,0.5,"cohesion, interfaces",
+VariablesTests.py,VariablesTestCase,sak,1.0,"large_class, cohesion, interfaces","test_keys, test_Add, test_AddVariables, test_Update, test_noaggregation, test_args, test_Save, test_GenerateHelpText, test_FormatVariableHelpText, test_Aliases"
+VariablesTests.py,UnknownVariablesTestCase,potential,0.7,"cohesion, interfaces","test_unknown, test_AddOptionUpdatesUnknown, test_AddOptionWithAliasUpdatesUnknown, test_VariableTypesImportVisibility"
+__init__.py,Variables,potential,0.5,large_class,"__init__, __str__, keys, Add, AddVariables, Update, UnknownVariables, Save, GenerateHelpText, FormatVariableHelpText"
+envs.py,MethodWrapper,potential,0.5,cohesion,"__init__, __call__, clone"
+filelock.py,SConsLockFailure,potential,0.5,"cohesion, interfaces",
+sctypes.py,NullSeq,potential,0.7,"cohesion, interfaces","__getitem__, __delitem__, __setitem__"
+stats.py,TimeStats,potential,0.7,"cohesion, interfaces","__init__, total_times, add_command"
+UtilTests.py,OutBuffer,potential,0.5,cohesion,"__init__, write"
+UtilTests.py,dictifyTestCase,potential,0.7,"cohesion, interfaces",test_dictify
+UtilTests.py,UtilTestCase,sak,1.0,"large_class, cohesion, interfaces","test_splitext, test_render_tree, test_print_tree, test_is_Dict, test_is_List, test_is_String, test_is_Tuple, test_to_Bytes, test_to_String, test_WhereIs, test_get_env_var, test_Proxy, test_display, test_get_native_path, test_PrependPath, test_AppendPath, test_PrependPathPreserveOld, test_AppendPathPreserveOld, test_addPathIfNotExists, test_CLVar, test_Selector, test_adjustixes, test_containsAny, test_containsAll, test_containsOnly, test_LogicalLines, test_intern, test_wait_for_process_to_die_success_psutil, test_wait_for_process_to_die_success_non_psutil"
+UtilTests.py,HashTestCase,potential,0.7,"cohesion, interfaces","test_collect, test_MD5signature"
+UtilTests.py,FIPSHashTestCase,sak,1.0,"large_class, cohesion, interfaces","__init__, test_basic_failover_bad_hashlib_hash_init, test_basic_failover_bad_hashlib_hash_get, test_usedforsecurity_flag_behavior, test_automatic_default_to_md5, test_automatic_default_to_sha256, test_automatic_default_to_sha1, test_no_available_algorithms, test_bad_algorithm_set_attempt"
+UtilTests.py,NodeListTestCase,potential,0.7,"cohesion, interfaces","test_simple_attributes, test_callable_attributes, test_null"
+UtilTests.py,flattenTestCase,potential,0.7,"cohesion, interfaces","test_scalar, test_dictionary_values"
+UtilTests.py,OsEnviron,potential,0.5,cohesion,"__init__, stop"
+UtilTests.py,get_env_boolTestCase,potential,0.7,"cohesion, interfaces","test_missing, test_true, test_false, test_default"
+UtilTests.py,get_os_env_boolTestCase,potential,0.7,"cohesion, interfaces","test_missing, test_true, test_false, test_default"
+UtilTests.py,EnvironmentVariableTestCase,potential,0.7,"cohesion, interfaces",test_is_valid_construction_var
+UtilTests.py,Node,potential,0.5,cohesion,"__init__, __str__"
+UtilTests.py,Derived,potential,0.5,"cohesion, interfaces",
+UtilTests.py,Subject,potential,0.5,cohesion,"meth, other"
+UtilTests.py,ProxyTest,potential,0.7,"cohesion, interfaces",other
+UtilTests.py,MyNode,potential,0.5,cohesion,"__init__, __str__"
+UtilTests.py,DummyEnv,potential,0.7,"cohesion, interfaces",subst
+UtilTests.py,TestClass,potential,0.5,cohesion,__init__
+UtilTests.py,TestClass,potential,0.5,cohesion,"__init__, meth"
+UtilTests.py,mydict,potential,0.5,"cohesion, interfaces",
+UtilTests.py,mylist,potential,0.5,"cohesion, interfaces",
+UtilTests.py,mystr,potential,0.5,"cohesion, interfaces",
+UtilTests.py,mytuple,potential,0.5,"cohesion, interfaces",
+__init__.py,NodeList,potential,0.7,"cohesion, interfaces","__bool__, __str__, __call__, __getitem__"
+__init__.py,DisplayEngine,potential,0.5,cohesion,__call__
+__init__.py,Proxy,potential,0.5,cohesion,"__init__, get"
+__init__.py,Delegate,potential,0.5,cohesion,__init__
+__init__.py,CLVar,potential,0.7,"cohesion, interfaces","__init__, __str__"
+__init__.py,Selector,potential,0.7,"cohesion, interfaces",__call__
+__init__.py,LogicalLines,potential,0.5,cohesion,__init__
+__init__.py,UniqueList,potential,0.7,"cohesion, interfaces","__init__, __getitem__, __setitem__, count"
+__init__.py,Unbuffered,potential,0.5,cohesion,"__init__, write"
+__init__.py,DispatchingFormatter,potential,0.7,"cohesion, interfaces",__init__
+__init__.py,_NoError,potential,0.5,"cohesion, interfaces",
+Job.py,ThreadPool,potential,0.5,cohesion,"__init__, get, preparation_failed, cleanup"
+Job.py,State,potential,0.5,"cohesion, interfaces",
+Job.py,FakeLock,potential,0.7,"cohesion, interfaces","lock, unlock"
+Job.py,FakeCondition,potential,0.7,"cohesion, interfaces","__init__, wait"
+JobTests.py,NoThreadsException,potential,0.7,"cohesion, interfaces",__str__
+JobTests.py,RandomTask,potential,0.5,"cohesion, interfaces",
+JobTests.py,Taskmaster,potential,0.5,cohesion,"__init__, next_task, cleanup"
+JobTests.py,JobTestCase,potential,0.5,"cohesion, interfaces",
+JobTests.py,DummyNodeInfo,potential,0.5,cohesion,update
+JobTests.py,testnode,potential,0.7,"cohesion, interfaces",__init__
+JobTests.py,goodnode,potential,0.7,"cohesion, interfaces",__init__
+JobTests.py,slowgoodnode,potential,0.7,"cohesion, interfaces",prepare
+JobTests.py,badnode,potential,0.7,"cohesion, interfaces","__init__, build"
+JobTests.py,slowbadnode,potential,0.7,"cohesion, interfaces",build
+JobTests.py,badpreparenode,potential,0.7,"cohesion, interfaces",prepare
+JobTests.py,SleepTask,potential,0.5,"cohesion, interfaces",
+JobTests.py,WaitThreadPool,potential,0.7,"cohesion, interfaces",get
+TaskmasterTests.py,Node,sak,0.8,"large_class, cohesion","__init__, make_ready, prepare, build, children, scan, scanner_key, set_bsig, set_csig, store_csig, store_bsig, __str__, postprocess"
+TaskmasterTests.py,OtherError,potential,0.5,"cohesion, interfaces",
+TaskmasterTests.py,MyException,potential,0.5,"cohesion, interfaces",
+TaskmasterTests.py,TaskmasterTestCase,sak,1.0,"large_class, cohesion, interfaces","test_next_task, test_make_ready_out_of_date, test_make_ready_exception, test_needs_execute, test_make_ready_all, test_children_errors, test_cycle_detection, test_next_top_level_candidate, test_stop, test_executed, test_prepare, test_execute, test_cached_execute, test_cached_execute_target_unlink_fails, test_exception, test_postprocess, test_trace"
+TaskmasterTests.py,Builder,potential,0.5,cohesion,targets
+TaskmasterTests.py,StopNode,potential,0.7,"cohesion, interfaces",children
+TaskmasterTests.py,ExitNode,potential,0.7,"cohesion, interfaces",children
+TaskmasterTests.py,MyTM,potential,0.7,"cohesion, interfaces",stop
+TaskmasterTests.py,MyException,potential,0.5,"cohesion, interfaces",
+TaskmasterTests.py,DummyFS,potential,0.5,cohesion,unlink
+TaskmasterTests.py,Exception1,potential,0.5,"cohesion, interfaces",
+TaskmasterTests.py,Exception2,potential,0.5,"cohesion, interfaces",
+TaskmasterTests.py,Exception3,potential,0.5,"cohesion, interfaces",
+__init__.py,Stats,potential,0.5,cohesion,__init__
+__init__.py,Task,sak,1.0,"large_class, cohesion, interfaces","__init__, display, prepare, needs_execute, execute, executed_without_callbacks, failed, fail_continue, make_ready_all, postprocess"
+__init__.py,AlwaysTask,potential,0.7,"cohesion, interfaces",needs_execute
+__init__.py,Taskmaster,sak,0.8,"large_class, cohesion","__init__, _validate_pending_children, next_task, stop, cleanup"

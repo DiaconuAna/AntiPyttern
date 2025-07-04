@@ -1,0 +1,8 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+objects.py,FixedWindowIndexer,potential,0.5,"cohesion, interfaces",
+objects.py,VariableWindowIndexer,potential,0.5,"cohesion, interfaces",
+objects.py,VariableOffsetWindowIndexer,potential,0.5,"cohesion, interfaces",
+objects.py,ExpandingIndexer,potential,0.5,"cohesion, interfaces",
+objects.py,FixedForwardWindowIndexer,potential,0.5,"cohesion, interfaces",
+objects.py,GroupbyIndexer,potential,0.5,"cohesion, interfaces",
+objects.py,ExponentialMovingWindowIndexer,potential,0.5,"cohesion, interfaces",

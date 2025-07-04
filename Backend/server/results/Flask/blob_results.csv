@@ -1,0 +1,9 @@
+File,Class,Is Blob Controller,Is Data Class,Smells
+app.py,Flask,True,False,"large_class, low_cohesion, comment_heavy"
+blueprints.py,Blueprint,True,False,"large_class, low_cohesion, comment_heavy"
+cli.py,FlaskGroup,True,False,"large_class, low_cohesion"
+ctx.py,RequestContext,True,False,"large_class, low_cohesion, comment_heavy"
+testing.py,FlaskClient,True,False,"large_class, low_cohesion"
+tag.py,TaggedJSONSerializer,True,False,"large_class, low_cohesion"
+blueprints.py,BlueprintSetupState,True,False,"large_class, low_cohesion, comment_heavy"
+blueprints.py,Blueprint,True,False,"large_class, low_cohesion, comment_heavy"

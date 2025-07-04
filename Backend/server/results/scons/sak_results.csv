@@ -1,0 +1,4 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+win32.py,PROCESS_MEMORY_COUNTERS_EX,potential,0.5,"cohesion, interfaces",
+_scons_dbm.py,error,potential,0.5,"cohesion, interfaces",
+__init__.py,NoSlotsPyPy,potential,0.5,"cohesion, interfaces",

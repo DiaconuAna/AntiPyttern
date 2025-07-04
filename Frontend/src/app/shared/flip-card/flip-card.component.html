@@ -1,0 +1,10 @@
+<div class="card-container w-full relative" [ngClass]="height" (click)="toggleFlip()">
+  <div class="card-inner w-full h-full" [class.flipped]="flipped">
+    <div class="card-front bg-white rounded-2xl shadow p-6 h-full w-full">
+      <ng-content select="[card-front]"></ng-content>
+    </div>
+    <div class="card-back bg-gray-100 rounded-2xl shadow p-6 h-full w-full">
+      <ng-content select="[card-back]"></ng-content>
+    </div>
+  </div>
+</div>

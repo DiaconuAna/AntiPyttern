@@ -1,0 +1,4 @@
+File,Classification,Score,Smells
+win32.py,clean,0.0,
+_scons_dbm.py,clean,0.15,dead_code
+__init__.py,clean,0.15,dead_code

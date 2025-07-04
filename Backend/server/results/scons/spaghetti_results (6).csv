@@ -1,0 +1,9 @@
+File,Classification,Score,Smells
+Interactive.py,clean,0.15,dead_code
+Main.py,spaghetti,1.0,"long_methods_no_params, global_vars, switch_stmt, dead_code"
+MainTests.py,clean,0.0,
+SConscript.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+SConscriptTests.py,clean,0.0,
+SConsOptions.py,potential,0.4,"switch_stmt, dead_code"
+ScriptTests.py,clean,0.15,dead_code
+__init__.py,potential,0.44999999999999996,"global_vars, dead_code"

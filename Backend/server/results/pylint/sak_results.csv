@@ -1,0 +1,227 @@
+File,Class,Classification,Score,Smells,Speculative Methods
+exceptions.py,InvalidMessageError,potential,0.5,"cohesion, interfaces",
+exceptions.py,UnknownMessageError,potential,0.5,"cohesion, interfaces",
+exceptions.py,DeletedMessageError,potential,0.7,"cohesion, interfaces",__init__
+exceptions.py,MessageBecameExtensionError,potential,0.7,"cohesion, interfaces",__init__
+exceptions.py,EmptyReportError,potential,0.5,"cohesion, interfaces",
+exceptions.py,InvalidReporterError,potential,0.5,"cohesion, interfaces",
+exceptions.py,InvalidArgsError,potential,0.5,"cohesion, interfaces",
+exceptions.py,NoLineSuppliedError,potential,0.5,"cohesion, interfaces",
+graph.py,DotBackend,potential,0.5,cohesion,__init__
+interfaces.py,Confidence,potential,0.5,"cohesion, interfaces",
+typing.py,FileItem,potential,0.5,"cohesion, interfaces",
+typing.py,ModuleDescriptionDict,potential,0.5,"cohesion, interfaces",
+typing.py,ErrorDescriptionDict,potential,0.5,"cohesion, interfaces",
+typing.py,MessageLocationTuple,potential,0.5,"cohesion, interfaces",
+typing.py,ManagedMessage,potential,0.5,"cohesion, interfaces",
+typing.py,ExtraMessageOptions,potential,0.5,"cohesion, interfaces",
+typing.py,GetProjectCallable,potential,0.5,"cohesion, interfaces",
+typing.py,GeneratorFactory,potential,0.5,"cohesion, interfaces",
+file_state.py,FileState,potential,0.5,cohesion,__init__
+linterstats.py,BadNames,potential,0.5,"cohesion, interfaces",
+linterstats.py,CodeTypeCount,potential,0.5,"cohesion, interfaces",
+linterstats.py,DuplicatedLines,potential,0.5,"cohesion, interfaces",
+linterstats.py,NodeCount,potential,0.5,"cohesion, interfaces",
+linterstats.py,UndocumentedNodes,potential,0.5,"cohesion, interfaces",
+linterstats.py,ModuleStats,potential,0.5,"cohesion, interfaces",
+linterstats.py,LinterStats,sak,0.8,"large_class, cohesion","__init__, get_code_count"
+pragma_parser.py,PragmaRepresenter,potential,0.5,"cohesion, interfaces",
+pragma_parser.py,PragmaParserError,potential,0.7,"cohesion, interfaces",__init__
+pragma_parser.py,UnRecognizedOptionError,potential,0.5,"cohesion, interfaces",
+pragma_parser.py,InvalidPragmaError,potential,0.5,"cohesion, interfaces",
+checker_test_case.py,CheckerTestCase,potential,0.5,cohesion,assertNoMessages
+output_line.py,MessageTest,potential,0.5,"cohesion, interfaces",
+pyreverse.py,PyreverseConfig,potential,0.7,"cohesion, interfaces",__init__
+pyreverse.py,TestFileOptions,potential,0.5,"cohesion, interfaces",
+pyreverse.py,FunctionalPyreverseTestfile,potential,0.5,"cohesion, interfaces",
+reporter_for_tests.py,FunctionalTestReporter,potential,0.5,"cohesion, interfaces",
+_run.py,_Run,potential,0.7,"cohesion, interfaces",__init__
+package_to_lint.py,DirtyPrimerDirectoryException,potential,0.7,"cohesion, interfaces",__init__
+package_to_lint.py,PackageToLint,potential,0.5,cohesion,__init__
+primer_command.py,PackageData,potential,0.5,"cohesion, interfaces",
+primer_command.py,PrimerCommand,potential,0.5,cohesion,"__init__, run"
+lint_module_output_update.py,TestDialect,potential,0.5,"cohesion, interfaces",
+test_file.py,NoFileError,potential,0.5,"cohesion, interfaces",
+test_file.py,TestFileOptions,potential,0.5,"cohesion, interfaces",
+test_file.py,FunctionalTestFile,potential,0.5,cohesion,"__init__, module, expected_output"
+base_reporter.py,BaseReporter,potential,0.5,cohesion,__init__
+json_reporter.py,JSONMessage,potential,0.5,"cohesion, interfaces",
+multi_reporter.py,MultiReporter,sak,0.8,"large_class, cohesion","__init__, out, out, linter, linter"
+text.py,TextReporter,potential,0.7,"cohesion, interfaces",__init__
+text.py,ParseableTextReporter,potential,0.7,"cohesion, interfaces",__init__
+text.py,VSTextReporter,potential,0.5,"cohesion, interfaces",
+base_writer.py,BaseWriter,potential,0.5,large_class,"format, write"
+nodes.py,VNode,potential,0.5,cohesion,"__init__, leave"
+nodes.py,Text,potential,0.7,"cohesion, interfaces",__init__
+nodes.py,VerbatimText,potential,0.5,"cohesion, interfaces",
+nodes.py,Section,potential,0.7,"cohesion, interfaces",__init__
+nodes.py,EvaluationSection,potential,0.7,"cohesion, interfaces",__init__
+nodes.py,Title,potential,0.5,"cohesion, interfaces",
+nodes.py,Paragraph,potential,0.5,"cohesion, interfaces",
+nodes.py,Table,potential,0.7,"cohesion, interfaces",__init__
+text_writer.py,TextWriter,potential,0.7,"large_class, interfaces","__init__, visit_section, visit_evaluationsection, visit_title, visit_paragraph, visit_table, visit_verbatimtext, visit_text"
+diadefslib.py,DiaDefGenerator,potential,0.5,cohesion,__init__
+diadefslib.py,DefaultDiadefGenerator,potential,0.7,"cohesion, interfaces","__init__, visit_project, leave_project, visit_importfrom"
+diagrams.py,Figure,potential,0.5,cohesion,__init__
+diagrams.py,Relationship,potential,0.7,"cohesion, interfaces",__init__
+diagrams.py,DiagramEntity,potential,0.7,"cohesion, interfaces",__init__
+diagrams.py,PackageEntity,potential,0.5,"cohesion, interfaces",
+diagrams.py,ClassEntity,potential,0.7,"cohesion, interfaces",__init__
+diagrams.py,ClassDiagram,potential,0.7,"large_class, interfaces","__init__, get_relationship, classes, classe"
+dot_printer.py,HTMLLabels,potential,0.5,"cohesion, interfaces",
+inspector.py,Linker,sak,1.0,"large_class, cohesion, interfaces","__init__, visit_project, visit_assignname, visit_import, visit_importfrom"
+inspector.py,AssociationHandlerInterface,potential,0.7,"cohesion, interfaces",handle
+inspector.py,AggregationsHandler,potential,0.7,"cohesion, interfaces",handle
+inspector.py,OtherAssociationsHandler,potential,0.7,"cohesion, interfaces",handle
+printer.py,NodeType,potential,0.5,"cohesion, interfaces",
+printer.py,EdgeType,potential,0.5,"cohesion, interfaces",
+printer.py,Layout,potential,0.5,"cohesion, interfaces",
+printer.py,NodeProperties,potential,0.5,"cohesion, interfaces",
+writer.py,DiagramWriter,potential,0.5,large_class,"__init__, write"
+message_definition_store.py,MessageDefinitionStore,potential,0.5,large_class,__init__
+_deleted_message_ids.py,DeletedMessage,potential,0.5,"cohesion, interfaces",
+pylinter.py,GetAstProtocol,potential,0.5,"cohesion, interfaces",
+pylinter.py,PyLinter,potential,0.7,"cohesion, interfaces","__init__, check"
+run.py,Run,potential,0.5,cohesion,__init__
+run.py,_PylintConfigRun,potential,0.5,"cohesion, interfaces",
+bad_builtin.py,BadBuiltinChecker,potential,0.7,"cohesion, interfaces",visit_call
+check_elif.py,ElseifUsedChecker,potential,0.7,"cohesion, interfaces","__init__, _init, leave_module, visit_if"
+code_style.py,CodeStyleChecker,potential,0.7,"cohesion, interfaces","visit_call, visit_dict, visit_for, visit_comprehension, visit_if, visit_assign"
+comparison_placement.py,MisplacedComparisonConstantChecker,potential,0.7,"cohesion, interfaces",visit_compare
+confusing_elif.py,ConfusingConsecutiveElifChecker,potential,0.7,"cohesion, interfaces",visit_if
+consider_refactoring_into_while_condition.py,ConsiderRefactorIntoWhileConditionChecker,potential,0.5,"cohesion, interfaces",
+dict_init_mutate.py,DictInitMutateChecker,potential,0.7,"cohesion, interfaces",visit_assign
+docparams.py,DocstringParameterChecker,potential,0.7,"large_class, interfaces","visit_raise, visit_yield"
+docstyle.py,DocStringStyleChecker,potential,0.5,"cohesion, interfaces",
+eq_without_hash.py,EqWithoutHash,potential,0.5,"cohesion, interfaces",
+for_any_all.py,ConsiderUsingAnyOrAllChecker,potential,0.7,"cohesion, interfaces",visit_for
+magic_value.py,MagicValueChecker,potential,0.7,"cohesion, interfaces","__init__, visit_compare"
+mccabe.py,PathGraph,potential,0.7,"cohesion, interfaces",__init__
+mccabe.py,PathGraphingAstVisitor,potential,0.7,"cohesion, interfaces","__init__, _subgraph"
+mccabe.py,McCabeMethodChecker,potential,0.5,"cohesion, interfaces",
+overlapping_exceptions.py,OverlappingExceptionsChecker,potential,0.7,"cohesion, interfaces",visit_try
+private_import.py,PrivateImportChecker,potential,0.7,"cohesion, interfaces","__init__, visit_import, visit_importfrom"
+redefined_loop_name.py,RedefinedLoopNameChecker,potential,0.7,"cohesion, interfaces","__init__, visit_assignname, visit_for, leave_for"
+redefined_variable_type.py,MultipleTypesChecker,potential,0.7,"cohesion, interfaces",visit_assign
+set_membership.py,SetMembershipChecker,potential,0.7,"cohesion, interfaces","__init__, visit_compare"
+typing.py,TypingAlias,potential,0.5,"cohesion, interfaces",
+typing.py,DeprecatedTypingAliasMsg,potential,0.5,"cohesion, interfaces",
+typing.py,TypingChecker,potential,0.7,"cohesion, interfaces","__init__, visit_name, visit_annassign, visit_subscript, leave_module"
+while_used.py,WhileChecker,potential,0.5,"cohesion, interfaces",
+_check_docs_utils.py,Docstring,potential,0.5,large_class,"__init__, exceptions"
+_check_docs_utils.py,SphinxDocstring,potential,0.7,"large_class, interfaces",exceptions
+_check_docs_utils.py,GoogleDocstring,potential,0.7,"large_class, interfaces",exceptions
+argument.py,_Argument,potential,0.5,cohesion,__init__
+argument.py,_BaseStoreArgument,potential,0.7,"cohesion, interfaces",__init__
+argument.py,_StoreArgument,potential,0.7,"cohesion, interfaces",__init__
+argument.py,_StoreTrueArgument,potential,0.7,"cohesion, interfaces",__init__
+argument.py,_DeprecationArgument,potential,0.7,"cohesion, interfaces",__init__
+argument.py,_ExtendArgument,potential,0.7,"cohesion, interfaces",__init__
+argument.py,_StoreOldNamesArgument,potential,0.7,"cohesion, interfaces",__init__
+argument.py,_StoreNewNamesArgument,potential,0.7,"cohesion, interfaces",__init__
+argument.py,_CallableArgument,potential,0.7,"cohesion, interfaces",__init__
+arguments_manager.py,_ArgumentsManager,potential,0.5,cohesion,"__init__, config, config"
+callback_actions.py,_CallbackAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_DoNothingAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_AccessRunObjectAction,potential,0.7,"cohesion, interfaces",__init__
+callback_actions.py,_MessageHelpAction,potential,0.7,"cohesion, interfaces",__init__
+callback_actions.py,_ListMessagesAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_ListMessagesEnabledAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_ListCheckGroupsAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_ListConfidenceLevelsAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_ListExtensionsAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_FullDocumentationAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_GenerateRCFileAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_GenerateConfigFileAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_ErrorsOnlyModeAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_LongHelpAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_AccessLinterObjectAction,potential,0.7,"cohesion, interfaces",__init__
+callback_actions.py,_XableAction,potential,0.7,"cohesion, interfaces",_call
+callback_actions.py,_DisableAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_EnableAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_OutputFormatAction,potential,0.5,"cohesion, interfaces",
+callback_actions.py,_AccessParserAction,potential,0.7,"cohesion, interfaces",__init__
+exceptions.py,UnrecognizedArgumentAction,potential,0.5,"cohesion, interfaces",
+exceptions.py,_UnrecognizedOptionError,potential,0.7,"cohesion, interfaces",__init__
+exceptions.py,ArgumentPreprocessingError,potential,0.5,"cohesion, interfaces",
+help_formatter.py,_HelpFormatter,potential,0.5,"cohesion, interfaces",
+_breaking_changes.py,BreakingChange,potential,0.5,"cohesion, interfaces",
+_breaking_changes.py,Condition,potential,0.5,"cohesion, interfaces",
+_breaking_changes.py,Information,potential,0.5,"cohesion, interfaces",
+_breaking_changes.py,Solution,potential,0.5,"cohesion, interfaces",
+utils.py,InvalidUserInput,potential,0.7,"cohesion, interfaces",__init__
+async_checker.py,AsyncChecker,potential,0.7,"cohesion, interfaces","visit_asyncfunctiondef, visit_asyncwith"
+base_checker.py,BaseChecker,sak,1.0,"large_class, cohesion, interfaces",__init__
+base_checker.py,BaseTokenChecker,potential,0.5,"cohesion, interfaces",
+base_checker.py,BaseRawFileChecker,potential,0.5,"cohesion, interfaces",
+dataclass_checker.py,DataclassChecker,potential,0.7,"cohesion, interfaces",visit_call
+deprecated.py,DeprecatedMixin,sak,1.0,"large_class, cohesion, interfaces","visit_call, visit_import, visit_decorators, visit_importfrom"
+design_analysis.py,MisdesignChecker,sak,1.0,"large_class, cohesion, interfaces","__init__, visit_try, visit_if"
+ellipsis_checker.py,EllipsisChecker,potential,0.7,"cohesion, interfaces",visit_const
+exceptions.py,BaseVisitor,potential,0.5,cohesion,"__init__, visit"
+exceptions.py,ExceptionRaiseRefVisitor,potential,0.7,"cohesion, interfaces","visit_name, visit_call"
+exceptions.py,ExceptionRaiseLeafVisitor,potential,0.7,"cohesion, interfaces","visit_const, visit_tuple"
+exceptions.py,ExceptionsChecker,potential,0.7,"cohesion, interfaces","visit_raise, visit_binop, visit_compare, visit_trystar, visit_try"
+format.py,TokenWrapper,potential,0.5,cohesion,"__init__, type, line"
+format.py,FormatChecker,sak,1.0,"large_class, cohesion, interfaces",__init__
+imports.py,ImportsChecker,potential,0.7,"large_class, interfaces","__init__, visit_import, visit_importfrom, leave_module"
+method_args.py,MethodArgsChecker,potential,0.7,"cohesion, interfaces",visit_call
+modified_iterating_checker.py,ModifiedIterationChecker,potential,0.7,"cohesion, interfaces",visit_for
+nested_min_max.py,NestedMinMaxChecker,potential,0.7,"cohesion, interfaces",visit_call
+newstyle.py,NewStyleConflictChecker,potential,0.5,"cohesion, interfaces",
+non_ascii_names.py,NonAsciiNameChecker,sak,1.0,"large_class, cohesion, interfaces","visit_global, visit_assignname, visit_import, visit_importfrom, visit_call"
+spelling.py,WordsWithDigitsFilter,potential,0.7,"cohesion, interfaces",_skip
+spelling.py,WordsWithUnderscores,potential,0.7,"cohesion, interfaces",_skip
+spelling.py,RegExFilter,potential,0.7,"cohesion, interfaces",_skip
+spelling.py,CamelCasedWord,potential,0.5,"cohesion, interfaces",
+spelling.py,SphinxDirectives,potential,0.5,"cohesion, interfaces",
+spelling.py,ForwardSlashChunker,potential,0.7,"cohesion, interfaces","next, _next"
+spelling.py,SpellingChecker,potential,0.5,"cohesion, interfaces",
+spelling.py,Filter,potential,0.5,cohesion,_skip
+stdlib.py,StdlibChecker,sak,1.0,"large_class, cohesion, interfaces","__init__, visit_call, visit_unaryop, visit_if, visit_ifexp, visit_boolop"
+strings.py,StringFormatChecker,potential,0.7,"cohesion, interfaces","visit_binop, visit_joinedstr, visit_call"
+strings.py,StringConstantChecker,sak,1.0,"large_class, cohesion, interfaces","__init__, visit_call, visit_list, visit_set, visit_tuple, visit_assign, visit_const"
+symilar.py,LineSpecifs,potential,0.5,"cohesion, interfaces",
+symilar.py,CplSuccessiveLinesLimits,potential,0.5,cohesion,__init__
+symilar.py,LinesChunk,potential,0.5,cohesion,__init__
+symilar.py,SuccessiveLinesLimits,potential,0.5,cohesion,"__init__, end, end"
+symilar.py,LineSetStartCouple,potential,0.5,"cohesion, interfaces",
+symilar.py,Commonality,potential,0.5,"cohesion, interfaces",
+symilar.py,Symilar,potential,0.5,cohesion,"__init__, run"
+symilar.py,LineSet,potential,0.5,cohesion,__init__
+symilar.py,SimilaritiesChecker,potential,0.7,"cohesion, interfaces",__init__
+threading_checker.py,ThreadingChecker,potential,0.7,"cohesion, interfaces",visit_with
+typecheck.py,TypeChecker,sak,1.0,"large_class, cohesion, interfaces","visit_assignattr, visit_delattr, visit_assign, visit_call, visit_with, visit_unaryop, visit_binop, _visit_binop, _visit_augassign, visit_compare, visit_dict, visit_set, visit_subscript, visit_for, visit_await"
+typecheck.py,IterableChecker,sak,1.0,"large_class, cohesion, interfaces","visit_for, visit_asyncfor, visit_yieldfrom, visit_call, visit_listcomp, visit_dictcomp, visit_setcomp, visit_generatorexp"
+unsupported_version.py,UnsupportedVersionChecker,sak,1.0,"large_class, cohesion, interfaces","visit_joinedstr, visit_namedexpr, visit_arguments, visit_decorators, visit_trystar, visit_excepthandler, visit_raise, visit_typealias, visit_typevar, visit_typevartuple"
+utils.py,NoSuchArgumentError,potential,0.5,"cohesion, interfaces",
+utils.py,InferredTypeError,potential,0.5,"cohesion, interfaces",
+utils.py,IncompleteFormatString,potential,0.5,"cohesion, interfaces",
+utils.py,UnsupportedFormatCharacter,potential,0.7,"cohesion, interfaces",__init__
+variables.py,VariableVisitConsumerAction,potential,0.5,"cohesion, interfaces",
+variables.py,NamesConsumer,potential,0.5,cohesion,__init__
+variables.py,VariablesChecker,potential,0.7,"cohesion, interfaces","__init__, visit_for, leave_for, leave_module, visit_lambda, leave_lambda, visit_generatorexp, leave_generatorexp, visit_dictcomp, leave_dictcomp, visit_setcomp, leave_setcomp, visit_global, visit_assignname, visit_delname, visit_name, visit_excepthandler, leave_excepthandler, visit_import, visit_importfrom, visit_assign, visit_listcomp, leave_listcomp, leave_assign, leave_with, visit_arguments, visit_subscript, visit_const"
+implicit_booleaness_checker.py,ImplicitBooleanessChecker,potential,0.7,"cohesion, interfaces","visit_call, visit_unaryop, visit_compare"
+not_checker.py,NotChecker,potential,0.7,"cohesion, interfaces",visit_unaryop
+recommendation_checker.py,RecommendationChecker,potential,0.7,"cohesion, interfaces","visit_call, visit_for, visit_comprehension, visit_const"
+refactoring_checker.py,ConsiderUsingWithStack,potential,0.5,"cohesion, interfaces",
+refactoring_checker.py,RefactoringChecker,sak,1.0,"large_class, cohesion, interfaces","__init__, _init, leave_module, visit_try, visit_for, visit_excepthandler, visit_with, visit_if, visit_ifexp, visit_raise, visit_call, visit_yield, visit_boolop, visit_assign, visit_augassign, visit_comprehension"
+class_checker.py,_CallSignature,potential,0.5,"cohesion, interfaces",
+class_checker.py,_ParameterSignature,potential,0.5,"cohesion, interfaces",
+class_checker.py,ScopeAccessMap,potential,0.5,cohesion,__init__
+class_checker.py,ClassChecker,sak,1.0,"large_class, cohesion, interfaces","__init__, visit_assignattr, visit_assign"
+special_methods_checker.py,SpecialMethodsChecker,potential,0.7,"cohesion, interfaces",__init__
+basic_checker.py,_BasicChecker,potential,0.5,"cohesion, interfaces",
+basic_checker.py,BasicChecker,potential,0.7,"cohesion, interfaces","__init__, visit_if, visit_ifexp, visit_comprehension, visit_expr, visit_lambda, visit_continue, visit_break, visit_raise, visit_call, visit_assert, visit_dict, visit_set, visit_try, leave_try, visit_with, visit_assign, visit_for"
+basic_error_checker.py,BasicErrorChecker,sak,1.0,"large_class, cohesion, interfaces","visit_assign, visit_starred, visit_yield, visit_yieldfrom, visit_continue, visit_break, visit_for, visit_unaryop, visit_nonlocal, visit_call"
+comparison_checker.py,ComparisonChecker,potential,0.7,"cohesion, interfaces",visit_compare
+docstring_checker.py,DocStringChecker,potential,0.5,"cohesion, interfaces",
+function_checker.py,FunctionChecker,potential,0.7,"cohesion, interfaces",visit_asyncfunctiondef
+pass_checker.py,PassChecker,potential,0.7,"cohesion, interfaces",visit_pass
+checker.py,TypeVarVariance,potential,0.5,"cohesion, interfaces",
+checker.py,NameChecker,potential,0.7,"cohesion, interfaces","__init__, leave_module, visit_assignname"
+naming_style.py,SnakeCaseStyle,potential,0.5,"cohesion, interfaces",
+naming_style.py,CamelCaseStyle,potential,0.5,"cohesion, interfaces",
+naming_style.py,PascalCaseStyle,potential,0.5,"cohesion, interfaces",
+naming_style.py,UpperCaseStyle,potential,0.5,"cohesion, interfaces",
+naming_style.py,AnyStyle,potential,0.5,"cohesion, interfaces",

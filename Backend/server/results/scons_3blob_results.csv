@@ -1,0 +1,13 @@
+File,Class,Is Blob Controller,Is Data Class,Smells
+test_strings.py,CheckUnexpandedStrings,True
+test_strings.py,CheckPassTest,True
+test_strings.py,CheckExpandedCopyright,True
+caller-tree.py,Entry,True
+Command.py,Usage,True
+SConsDoc.py,DoctypeEntity,True
+SConsDoc.py,Builder,True
+SConsDoc.py,Function,True
+SConsDoc.py,ConstructionVariable,True
+SConsExamples.py,ExampleFolder,True
+SConsExamples.py,ExampleCommand,True
+SConsExamples.py,ExampleOutput,True

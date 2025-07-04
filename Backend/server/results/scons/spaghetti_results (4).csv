@@ -1,0 +1,15 @@
+File,Classification,Score,Smells
+aix.py,potential,0.4,"switch_stmt, dead_code"
+cygwin.py,clean,0.15,dead_code
+darwin.py,clean,0.0,
+hpux.py,clean,0.0,
+irix.py,clean,0.0,
+mingw.py,clean,0.15,dead_code
+os2.py,clean,0.0,
+PlatformTests.py,potential,0.4,"switch_stmt, dead_code"
+posix.py,clean,0.0,
+sunos.py,clean,0.0,
+virtualenv.py,clean,0.0,
+virtualenvTests.py,clean,0.15,dead_code
+win32.py,spaghetti,0.7000000000000001,"global_vars, switch_stmt, dead_code"
+__init__.py,potential,0.4,"switch_stmt, dead_code"
